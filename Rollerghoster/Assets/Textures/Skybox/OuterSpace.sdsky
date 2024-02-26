@@ -1,0 +1,5 @@
+!SkyboxAsset
+Id: 808eed05-bb83-4778-8f06-839958c53e4b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+CubeMap: bcf63862-0dc7-4726-9301-a20ed7eade56:Textures/Skybox/Starbasesnow

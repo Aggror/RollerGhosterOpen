@@ -1,0 +1,104 @@
+!PrefabAsset
+Id: 2f8d94b1-ce7e-4f28-8802-16236d4fe6f1
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! ce846fb6-83ee-4b6f-9ab0-74b9f4f13956
+    Parts:
+        -   Entity:
+                Id: 3504f118-5b50-4f3f-9532-7fea06f38f93
+                Name: Camera
+                Components:
+                    fedf82cb7895da2714575690b9cede44: !TransformComponent
+                        Id: dc075ae1-f7d8-4576-aa2d-48c12e71ef60
+                        Position: {X: 0.0, Y: 0.0, Z: 1.0}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    957187fe7dd508541f3ed6b1960da65a: !CameraComponent
+                        Id: 84faad34-7150-452c-ac13-f03874ce3b64
+                        Enabled: false
+                        Name: null
+                        Projection: Perspective
+                        Slot: 07ac57c3-5eac-4660-a72d-6e9d7606cf52
+        -   Entity:
+                Id: 35387242-92eb-437c-85b5-545939c1c799
+                Name: fp
+                Components:
+                    6da76b5ff789f1b748c57dad01ac0110: !TransformComponent
+                        Id: a727e1fd-c9ee-4ba9-85df-dd39c614feba
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 5198945e-5bed-4138-befd-f76b4a1c9138
+                Name: CameraPivot
+                Components:
+                    6862218fb1bd046645033b4987943b7f: !TransformComponent
+                        Id: d5a38346-fbbb-4fbc-8590-b25919896089
+                        Position: {X: 0.0, Y: 0.0, Z: -7.69795227}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4f7b708c7bb6fc548b34416c9141ec9e: ref!! dc075ae1-f7d8-4576-aa2d-48c12e71ef60
+        -   Entity:
+                Id: 582c8688-ac9e-429d-9f35-6cd6d2c552a8
+                Name: tp
+                Components:
+                    6da76b5ff789f1b748c57dad01ac0110: !TransformComponent
+                        Id: 8bb40d97-2073-4673-81a6-a7cf050b5cdd
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: ac8e0364-52f3-4f5b-8894-40d73fc588e5
+                Name: Marble
+                Components:
+                    6cc9a74d5f1d4032400b3c421165f552: !TransformComponent
+                        Id: 1f3b5acf-d382-48d7-ace8-578cb3d885d4
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d379ecf0bd14f6fef4d6ad0a4250aa4e: !ModelComponent
+                        Id: f10f3002-38e2-4880-9c48-e827917b31a8
+                        Model: a6d7b9ff-3cf0-4619-817b-5c4f8d222dc4:Models/Sphere
+                        Materials:
+                            abf6233e2c1c3acd956b820762a265a5~0: 8f11e028-97c5-430e-94ca-67bba1984567:Models/Roads/TextureAndMaterials/Ball/Material_2
+                    ff857b313d8c91ec2be08cd3212006e5: !RigidbodyComponent
+                        Id: 6aa8f3ed-853e-4942-b37a-7530337db6b5
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 2.0
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 5.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            f9ec4188355fefc9910130eab5f39c0f: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        -   Entity:
+                Id: ce846fb6-83ee-4b6f-9ab0-74b9f4f13956
+                Name: MarbleRoot
+                Components:
+                    e5df1a47f756f04ca9ce1b0088eb6b01: !TransformComponent
+                        Id: bfca8251-e511-407b-a05f-684df82f736e
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            d1f90377fd63e82a05e337b56c0dea48: ref!! d5a38346-fbbb-4fbc-8590-b25919896089
+                            0e675c40dc67bb3c548e2fb21377abf8: ref!! 8bb40d97-2073-4673-81a6-a7cf050b5cdd
+                            3f4f2df4bd0759af6faf5c42bd21b39e: ref!! a727e1fd-c9ee-4ba9-85df-dd39c614feba
+                            8de0619f342dadd03fcc46e6e3392aef: ref!! 1f3b5acf-d382-48d7-ace8-578cb3d885d4

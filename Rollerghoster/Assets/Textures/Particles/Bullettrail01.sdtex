@@ -1,0 +1,7 @@
+!Texture
+Id: c1e218d4-8ba3-4cef-88a4-3b7e4724db40
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/Particles/Bullettrail01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

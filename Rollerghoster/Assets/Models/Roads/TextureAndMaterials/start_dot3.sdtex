@@ -1,0 +1,6 @@
+!Texture
+Id: d6f0d170-5bdf-49d5-a428-2ab796a4a20d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Road/start_dot3.bmp
+Type: !NormalMapTextureType {}

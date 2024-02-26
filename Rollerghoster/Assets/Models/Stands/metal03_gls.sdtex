@@ -1,0 +1,6 @@
+!Texture
+Id: 861f5a42-079b-4847-bb1b-3b1f23839ff4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Stand/metal03_gls.dds
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,10 @@
+!ProceduralModelAsset
+Id: 43e523a9-6bc1-4772-9a6f-ecb733a513d1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: !ConeProceduralModel
+    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    MaterialInstance:
+        Material: null

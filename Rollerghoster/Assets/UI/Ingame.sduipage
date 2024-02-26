@@ -1,0 +1,229 @@
+!UIPageAsset
+Id: 6bef4616-4710-4e68-9c20-826769061e9b
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! d24050f5-1372-4bb3-82bd-2fd76cc2a56d
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 07d7a12e-27e9-48e6-a76d-1f24ae650a63
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 69.0
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: LevelTimer
+                Text: 00:000
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 44.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 26059fe7-a58f-4c77-9697-75cf93f766e7
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 308.0
+                Height: 18.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 80.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ToggleGoldMedalGhost
+                Text: 1 - Toggle gold medal
+                Font: a1fae307-7bef-4c9b-8730-b6f308628f73:UI/SmallInstructions
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 2fd1c3c0-8ecf-4fad-869f-587942a32177
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 308.0
+                Height: 18.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 135.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: onlineGhostsHiddenText
+                Text: 4 - Toggle online ghosts
+                Font: a1fae307-7bef-4c9b-8730-b6f308628f73:UI/SmallInstructions
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 3dfc856a-e764-4bca-a3e0-436f1ead3c65
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 308.0
+                Height: 20.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 47.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: RestartLevelText
+                Text: R - restart level
+                Font: a1fae307-7bef-4c9b-8730-b6f308628f73:UI/SmallInstructions
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Canvas
+                Id: 4b8daded-82a2-44d2-bb71-e547968cb8ec
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 352.0
+                Height: 244.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Bottom
+                Margin: {Left: 12.0}
+                Children:
+                    16a0d90f270e4b9f9ba8b71a0ac97d36: !TextBlock ref!! 3dfc856a-e764-4bca-a3e0-436f1ead3c65
+                    f5e6ea9a7a047d417a81d38088a5b271: !TextBlock ref!! 26059fe7-a58f-4c77-9697-75cf93f766e7
+                    91922d6468f5619b77f8cf38514fd340: !TextBlock ref!! a81ad297-328e-467b-8201-706921abed22
+                    b90e338867f1d0791535140c432f71c9: !TextBlock ref!! ecc6787a-a1c0-42e9-8096-68355ce00b1c
+                    afa0b1090b6ea76e65731d361fcf767c: !TextBlock ref!! 2fd1c3c0-8ecf-4fad-869f-587942a32177
+                    d3edb74138a333cc6b8cac4f6c0d517e: !TextBlock ref!! bd62d5cb-7518-426d-aa91-d8dda5e6f50a
+                    6759b09eb01b44d0e1c41c7375341e40: !TextBlock ref!! c4e625f6-a753-4fc3-a13f-73f37cb3cd3a
+                    f1524e19da7d47e3e6ac5c5777b3ee4f: !TextBlock ref!! f3e2129b-7dc1-44db-a6dd-86da4565d9b6
+                    60c2040714a41e0c31ec64d2bcf1f8e5: !TextBlock ref!! 4bf76b61-ef62-4da7-baf9-292d9ee74477
+        -   UIElement: !TextBlock
+                Id: 4bf76b61-ef62-4da7-baf9-292d9ee74477
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 308.0
+                Height: 14.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 181.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: CleanGhostsText
+                Text: 6 - Clean local ghosts
+                Font: a1fae307-7bef-4c9b-8730-b6f308628f73:UI/SmallInstructions
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 8af7007c-7059-47c6-98a1-0084c3438c25
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 326.0
+                Height: 69.0
+                HorizontalAlignment: Right
+                VerticalAlignment: Bottom
+                Margin: {Right: 19.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Retries
+                Text: 0 Retries
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 44.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Right
+        -   UIElement: !TextBlock
+                Id: a81ad297-328e-467b-8201-706921abed22
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 308.0
+                Height: 18.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 98.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ToggleSilverMedalGhost
+                Text: 2 - Toggle silver medal
+                Font: a1fae307-7bef-4c9b-8730-b6f308628f73:UI/SmallInstructions
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: bd62d5cb-7518-426d-aa91-d8dda5e6f50a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 308.0
+                Height: 18.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 205.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: corpsesHiddenText
+                Text: 7 - Toggle corpses
+                Font: a1fae307-7bef-4c9b-8730-b6f308628f73:UI/SmallInstructions
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: c4e625f6-a753-4fc3-a13f-73f37cb3cd3a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 308.0
+                Height: 21.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 223.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: CleanCorpsesText
+                Text: 8 - Clean corpses
+                Font: a1fae307-7bef-4c9b-8730-b6f308628f73:UI/SmallInstructions
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: d24050f5-1372-4bb3-82bd-2fd76cc2a56d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    76e1b1a86aa8eb9e97919acfed725bf8: !TextBlock ref!! 8af7007c-7059-47c6-98a1-0084c3438c25
+                    c5eb92f88de2f8d5c09b220d52e2267f: !TextBlock ref!! 07d7a12e-27e9-48e6-a76d-1f24ae650a63
+                    296fe7a75728996c79f392c56e7c9403: !Canvas ref!! 4b8daded-82a2-44d2-bb71-e547968cb8ec
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: ecc6787a-a1c0-42e9-8096-68355ce00b1c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 308.0
+                Height: 18.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 116.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ToggleBronzeMedalGhost
+                Text: 3 - Toggle bronze medal
+                Font: a1fae307-7bef-4c9b-8730-b6f308628f73:UI/SmallInstructions
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: f3e2129b-7dc1-44db-a6dd-86da4565d9b6
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 308.0
+                Height: 18.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 163.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ghostsHiddenText
+                Text: 5 - Toggle local ghosts
+                Font: a1fae307-7bef-4c9b-8730-b6f308628f73:UI/SmallInstructions
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}

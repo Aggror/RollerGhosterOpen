@@ -1,0 +1,7 @@
+!Texture
+Id: 3a1e7009-8756-4c18-bfa0-c192bb6864f4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Stone Wall 003/Wall_Stone_003_COLOR.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,329 @@
+!UIPageAsset
+Id: 11bf4eda-1f5b-4382-9e12-76bac55d5540
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! d7c5bfb9-c53b-4156-b7b8-77b2247bda0d
+    Parts:
+        -   UIElement: !Button
+                Id: 1f2eb2cd-d200-47ba-b346-df3508b16f36
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 254.0
+                Height: 30.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Bottom
+                Margin: {Left: 12.0, Bottom: 56.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: SaveBtn
+                Content: !TextBlock ref!! e9581165-7a5f-45ef-bfa6-293688b00850
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+        -   UIElement: !Slider
+                Id: 354c7eeb-53ca-418a-aefc-ee51565dd951
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 334.0
+                Height: 22.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 286.40268, Top: 87.34375}
+                Name: SoundEffectsVolumeSlider
+                Value: 1.0
+                Maximum: 100.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !TextBlock
+                Id: 4084c89a-e459-416a-8648-8a9eeff48c31
+                DependencyProperties:
+                    ffae34391da112eb2752a96123ad71ab~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 57.0
+                VerticalAlignment: Top
+                Margin: {Left: -21.0, Top: 17.0, Right: -12.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Title
+                Text: Rollerghoster
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 68.0
+                TextColor: {R: 89, G: 116, B: 151, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 46d1f5c5-f8a5-43b1-8d9d-85a496b09507
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: Back
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 82ec3aed-84bb-466b-9472-203a99dd9c56
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 115.40268
+                Height: 26.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 12.0, Top: 87.34375}
+                Text: Sound effects
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Slider
+                Id: 88359aa7-317c-4fca-8a3a-8287cefb8e92
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 334.0
+                Height: 22.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 286.40268, Top: 177.34375}
+                Name: CameraSensitivitySlider
+                Value: 1.0
+                Maximum: 100.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !Canvas
+                Id: a3cddccd-5705-4f6a-9433-534f8ad03a87
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 398.0
+                Height: 720.0
+                HorizontalAlignment: Left
+                Margin: {Left: 12.0}
+                Name: MainCanvas
+                Children: {}
+        -   UIElement: !Slider
+                Id: a82b385d-6a01-49f9-9ed8-bf8a1ac2516f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 5
+                Width: 334.0
+                Height: 22.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 286.40268, Top: 17.34375}
+                Name: MusicVolumeSlider
+                Value: 1.0
+                Maximum: 100.0
+                Step: 1.0
+                TrackBackgroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 9
+                TrackForegroundImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+                TrackStartingOffsets: {X: 3.0, Y: 3.0}
+                ThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 7
+                MouseOverThumbImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 6
+                TickImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 8
+                TickOffset: 13.0
+        -   UIElement: !TextBlock
+                Id: b056a68c-a80c-4c33-be17-0ecb7f847327
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 274.40268
+                Height: 26.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 12.0, Top: 244.34375}
+                Text: Invert mouse Y
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !ToggleButton
+                Id: b5d4d475-d08c-4dd1-b55b-d6d78d179013
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 25.40268
+                Height: 26.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 286.40268, Top: 244.34375}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: InvertMouseYBtn
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !TextBlock
+                Id: ba4acf66-f467-4153-9eee-98d2185fc438
+                DependencyProperties:
+                    453238672350252de293882e40095a5d~Panel.ZIndexPropertyKey: 4
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 57.0
+                VerticalAlignment: Top
+                Margin: {Top: 16.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Title
+                Text: Rollerghoster
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 68.0
+                TextColor: {R: 206, G: 170, B: 255, A: 255}
+                TextAlignment: Center
+        -   UIElement: !Button
+                Id: c7dc9219-1a92-40cb-a90b-437cad32903f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 254.0
+                Height: 27.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Bottom
+                Margin: {Left: 12.0, Bottom: 18.0}
+                Name: BackBtn
+                Content: !TextBlock ref!! 46d1f5c5-f8a5-43b1-8d9d-85a496b09507
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+        -   UIElement: !Canvas
+                Id: cbe315fb-f46a-497a-b0f6-f6e485e1d490
+                DependencyProperties: {}
+                BackgroundColor: {R: 61, G: 52, B: 52, A: 0}
+                Width: 958.0
+                Height: 446.0
+                Margin: {Left: 322.0, Top: 286.0, Bottom: -12.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: OptionsCanvas
+                Children:
+                    e1531264cedac414f0e706fa9a6b8dd0: !TextBlock ref!! ec3bfea4-7ca7-4a7d-999b-d71a21573368
+                    b7a67647c03794a18bf536368f03e654: !Slider ref!! a82b385d-6a01-49f9-9ed8-bf8a1ac2516f
+                    220c6c857b34f197bc16250dac1a28f9: !TextBlock ref!! 82ec3aed-84bb-466b-9472-203a99dd9c56
+                    9eb890f10f32f740837d8a3fd5cd8184: !Slider ref!! 354c7eeb-53ca-418a-aefc-ee51565dd951
+                    8f7feaa7abb1f38959cb915f99a0622e: !TextBlock ref!! d80cf21e-d4ac-4160-b4c7-4e3b04651f2e
+                    d2cd03f80f488e9b62f433142925516f: !Slider ref!! 88359aa7-317c-4fca-8a3a-8287cefb8e92
+                    a077542725d1aa567401b40012b8b26b: !TextBlock ref!! b056a68c-a80c-4c33-be17-0ecb7f847327
+                    6dc9645cbc19ad7592ebaa58faf92b26: !ToggleButton ref!! b5d4d475-d08c-4dd1-b55b-d6d78d179013
+        -   UIElement: !Grid
+                Id: d7c5bfb9-c53b-4156-b7b8-77b2247bda0d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 720.0
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    cfcf73a2224cf10be2d8eb7d93ecd362: !Canvas ref!! a3cddccd-5705-4f6a-9433-534f8ad03a87
+                    3b4848ffe6853786039f52414a85de2a: !TextBlock ref!! 4084c89a-e459-416a-8648-8a9eeff48c31
+                    0289ea9e4a41101d34231b7be99dc9cc: !TextBlock ref!! ba4acf66-f467-4153-9eee-98d2185fc438
+                    58010adf8ddd0232e8acda7a0d27d4e7: !Canvas ref!! cbe315fb-f46a-497a-b0f6-f6e485e1d490
+                    a1e562f31b1798a79fc64b721714b524: !Button ref!! 1f2eb2cd-d200-47ba-b346-df3508b16f36
+                    f00292b7717b23cdc5df72321471f23a: !Button ref!! c7dc9219-1a92-40cb-a90b-437cad32903f
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: d80cf21e-d4ac-4160-b4c7-4e3b04651f2e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 274.40268
+                Height: 26.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 12.0, Top: 177.34375}
+                Text: Camera sensitivity
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: e9581165-7a5f-45ef-bfa6-293688b00850
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: Save
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: ec3bfea4-7ca7-4a7d-999b-d71a21573368
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 115.40268
+                Height: 22.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 12.0, Top: 17.34375}
+                Text: Music
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}

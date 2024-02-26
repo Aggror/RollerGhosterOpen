@@ -1,0 +1,6 @@
+!Texture
+Id: c569bf6b-85d3-4d47-90e3-f0091c102d5e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Stand/simple_ground_ao.png
+Type: !GrayscaleTextureType {}

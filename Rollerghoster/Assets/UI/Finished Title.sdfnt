@@ -1,0 +1,14 @@
+!SpriteFont
+Id: 85b150cd-75ee-4763-ac45-4308d19db0e6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+FontSource: !FileFontProvider
+    Source: !file ../../Resources/Textures/UI/OpenSans/OpenSans-Regular.ttf
+FontType: !OfflineRasterizedSpriteFontType
+    Size: 64.0
+    CharacterSet: null
+    CharacterRegions:
+        07a21412ddfa40ca5d987f42f2aa9e19:
+            Start: ' '
+            End: "\x7F"
+LineSpacing: 8.4

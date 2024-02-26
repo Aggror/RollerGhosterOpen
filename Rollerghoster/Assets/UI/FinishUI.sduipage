@@ -1,0 +1,335 @@
+!UIPageAsset
+Id: fa57612e-ca08-4a7a-8445-58fcf5453695
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 14343c31-d556-4e59-ac49-b1f436304c01
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 06bbb9b9-5279-4f9f-9fdc-9e988bae1cc1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 147.0
+                Height: 24.0
+                VerticalAlignment: Top
+                Margin: {Left: 169.5, Top: -24.0, Right: 84.5}
+                Name: Time
+                Text: Time
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: 14343c31-d556-4e59-ac49-b1f436304c01
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    296fe7a75728996c79f392c56e7c9403: !Canvas ref!! eeccac15-c37e-41b2-a97a-be67fd91b14d
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: 2a78ab86-5a67-4830-9fdf-44ac4dfb9e07
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 64.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 135.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: RetriesTxt
+                Text: 00 retries
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 36.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !Button
+                Id: 31b39fd7-077a-4c78-867f-6ec74ac07f3a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 227.35294
+                Height: 52.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 528.0, Top: 418.34375}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: BackToMainMenuBtn
+                Content: !TextBlock ref!! 45c44e03-892a-4076-aa30-5b36a61da1da
+                PressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !TextBlock
+                Id: 45c44e03-892a-4076-aa30-5b36a61da1da
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 226.35294
+                Height: 22.656252
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: Back to main menu
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !Button
+                Id: 52d117d3-6a01-4b74-91d1-de0e61b9b7a1
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Visibility: Hidden
+                DrawLayerNumber: 2
+                Width: 227.35294
+                Height: 52.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 528.0, Top: 306.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ReplayBtn
+                Content: !TextBlock ref!! bf66af7b-46b6-46db-868f-5533b1d6f3b3
+                PressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !StackPanel
+                Id: 590d1963-8921-413b-a74b-dfa66349c770
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 401.0
+                Height: 360.0
+                VerticalAlignment: Top
+                Margin: {Left: 21.0}
+                Name: ScoreRowsPanel
+                Children:
+                    f94ae2e39b8a2f58e67ef8dfd88e021e: !StackPanel ref!! 934684fa-135c-4e90-8291-17f3d2ef7fec
+        -   UIElement: !TextBlock
+                Id: 5ec4f6f3-607c-4657-a59e-f08df967a324
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1277.0
+                Height: 76.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: FinishedTxt
+                Text: Finished
+                Font: 85b150cd-75ee-4763-ac45-4308d19db0e6:UI/Finished Title
+                TextSize: 0.0
+                TextColor: {R: 49, G: 4, B: 194, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 8907267e-7fe8-41f0-ad7d-b481e351b407
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 218.375
+                Height: 22.656252
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: Restart
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: 8edf78f0-b4d3-400c-8f8c-39178ccdad66
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 401.0
+                Height: 33.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 21.0, Top: 38.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: OnlineRecordsTitle
+                Text: Online records
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !StackPanel
+                Id: 934684fa-135c-4e90-8291-17f3d2ef7fec
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 401.0
+                Height: 29.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ScoreRowTemplate
+                Children:
+                    a36dcb3cc018f01cfab73b2a3aff97f3: !TextBlock ref!! b63ebc42-8696-4193-83ba-16bd600962fc
+                    9a98ae959c604149c586ac26acae9e46: !TextBlock ref!! 06bbb9b9-5279-4f9f-9fdc-9e988bae1cc1
+                    a605ae24d23c922dd09fa6ec2f64233d: !TextBlock ref!! d94fc434-eb8b-448b-a741-e78d0d8419fe
+        -   UIElement: !TextBlock
+                Id: 9e22fe62-7c36-4f65-b0d0-e3ee81561b11
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 221.0
+                Height: 35.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 20.0, Top: 234.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: LocalTimesTxt
+                Text: Local records
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: b63ebc42-8696-4193-83ba-16bd600962fc
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 161.0
+                Height: 24.0
+                VerticalAlignment: Top
+                Margin: {Left: 8.5, Right: 231.5}
+                Name: Name
+                Text: Name
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: bf66af7b-46b6-46db-868f-5533b1d6f3b3
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 223.17648
+                Height: 22.656252
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: Watch replay
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !StackPanel
+                Id: cd6774a5-e17a-4da5-bc96-8ba136ed7523
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 288.0
+                Height: 316.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 989.0, Top: 234.0}
+                Name: OnlineScores
+                Children: {}
+        -   UIElement: !Button
+                Id: d8a09ac7-4bc9-4585-ba53-e6e8c36f4a84
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 227.35294
+                Height: 59.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 528.0, Top: 234.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: RestartLevelBtn
+                Content: !TextBlock ref!! 8907267e-7fe8-41f0-ad7d-b481e351b407
+                PressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !TextBlock
+                Id: d94fc434-eb8b-448b-a741-e78d0d8419fe
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 76.0
+                Height: 24.0
+                VerticalAlignment: Top
+                Margin: {Left: 308.0, Top: -24.0}
+                Name: Retries
+                Text: Retries
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !StackPanel
+                Id: dbec8557-d420-4dcd-bc23-5bb324b3f73a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 422.0
+                Height: 444.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 844.0, Top: 199.0}
+                Name: OnlineRecordsPanel
+                Children:
+                    6044cd9f1b32a7f452dd984761b12b8e: !TextBlock ref!! 8edf78f0-b4d3-400c-8f8c-39178ccdad66
+                    ce2ca1948f29a17b9f93fbeea26ef583: !StackPanel ref!! 590d1963-8921-413b-a74b-dfa66349c770
+        -   UIElement: !TextBlock
+                Id: df476f89-4572-4939-b5f2-647baafc839c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 64.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 76.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: LevelTimerTxt
+                Text: 00:000
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 44.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
+        -   UIElement: !Canvas
+                Id: eeccac15-c37e-41b2-a97a-be67fd91b14d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 720.0
+                Margin: {}
+                Children:
+                    0cd6a5e121a5ce99c6e6df8ae3f2009d: !TextBlock ref!! 5ec4f6f3-607c-4657-a59e-f08df967a324
+                    cba5a48ba6ae2db76d3d982a394a5009: !TextBlock ref!! df476f89-4572-4939-b5f2-647baafc839c
+                    e86f97440640e7b8552ad1ab674ae9a3: !TextBlock ref!! 2a78ab86-5a67-4830-9fdf-44ac4dfb9e07
+                    c02e466cbd86a9890bf07d44467c5f3a: !TextBlock ref!! 9e22fe62-7c36-4f65-b0d0-e3ee81561b11
+                    6f58d6b4bc585f5e8fd922298ee813e2: !StackPanel ref!! dbec8557-d420-4dcd-bc23-5bb324b3f73a
+                    fde4209193664975bfc0b0e0e3439367: !Button ref!! d8a09ac7-4bc9-4585-ba53-e6e8c36f4a84
+                    4e68ca632b73320a6d1d0d74423b23a3: !Button ref!! 52d117d3-6a01-4b74-91d1-de0e61b9b7a1
+                    a73758e6ae8ca5afc444ee972c994554: !Button ref!! 31b39fd7-077a-4c78-867f-6ec74ac07f3a
+                    ddb91655f9c02586eee40a49c3e90553: !StackPanel ref!! cd6774a5-e17a-4da5-bc96-8ba136ed7523

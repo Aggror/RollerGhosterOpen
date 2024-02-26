@@ -1,0 +1,7 @@
+!Texture
+Id: 46b22eb1-2b57-4bd0-8e2e-88eb02148b33
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/Particles/Smoke02.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

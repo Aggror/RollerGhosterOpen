@@ -1,0 +1,15 @@
+!Model
+Id: efeb72e3-bc54-454f-8c0f-e6bf359fe4bb
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/box.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    1c1114d90941f1420941f1420941f142:
+        Name: gold
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    3a9d3b9ce55f862ef846484ef275f5d6~../../../Resources/Models/box.fbx: 63047528a4b8c7fc888656181dd4dc07

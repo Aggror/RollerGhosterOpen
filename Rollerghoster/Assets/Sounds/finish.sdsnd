@@ -1,0 +1,8 @@
+!Sound
+Id: 9a7f015b-e88b-420d-9300-b1ef73884527
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Sound/finish.wav
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

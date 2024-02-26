@@ -1,0 +1,61 @@
+!PrefabAsset
+Id: e62fe5fa-0f48-435d-9d13-c610fde43408
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 6ce13ef8-a9a9-4c59-a4a8-c99e81000b5e
+    Parts:
+        -   Entity:
+                Id: 6ce13ef8-a9a9-4c59-a4a8-c99e81000b5e
+                Name: BaseUp
+                Components:
+                    60ba54cddd2ee85dc5cde42b993331ca: !TransformComponent
+                        Id: a7c0e7e5-9c12-4af8-ba7d-35893871b8b8
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            88ada1d3516534c146d5320dffed9b03: ref!! ed30de62-4a83-4b66-8b6d-56a400236a7e
+                            19f285e62eda312e93a461f276e46910: ref!! b8c24f9f-5806-4135-91d4-dd2339016432
+        -   Entity:
+                Id: d166e407-437e-47f7-8edc-1a8e87a08e81
+                Name: 10x1x10
+                Components:
+                    0a170b82120551840e844ef113f9fa4c: !TransformComponent
+                        Id: b8c24f9f-5806-4135-91d4-dd2339016432
+                        Position: {X: 0.0, Y: 1.22775137, Z: 4.89299536}
+                        Rotation: {X: -0.173648179, Y: 0.0, Z: 0.0, W: 0.9848077}
+                        Scale: {X: 10.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    a4712ce36fe210116febdb077d6c8702: !ModelComponent
+                        Id: 02e7498f-587b-463f-8f3a-67293059436f
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            3f01c500dd8855048a77d4f609381a5f~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    d5b28ba32af77f6d67a55e9254b06c61: !StaticColliderComponent
+                        Id: 8978cd8d-6eeb-4083-a988-453ddd3ec207
+                        CollisionGroup: StaticFilter
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            82d96498192092121ba6e2514d7bf004: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: d224b7db-6693-40cc-a8f2-a772fcf89c5f
+                Name: End
+                Components:
+                    edce0d77e4d309739de8f1f2b31f9775: !TransformComponent
+                        Id: ed30de62-4a83-4b66-8b6d-56a400236a7e
+                        Position: {X: 0.0, Y: 3.38704467, Z: 9.368284}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}

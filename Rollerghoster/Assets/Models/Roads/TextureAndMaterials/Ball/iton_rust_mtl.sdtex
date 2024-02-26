@@ -1,0 +1,6 @@
+!Texture
+Id: 2cf59c58-046d-44eb-aca4-fa12b601a5ba
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../Resources/Textures/iron_blend/rust/iton_rust_mtl.png
+Type: !GrayscaleTextureType {}

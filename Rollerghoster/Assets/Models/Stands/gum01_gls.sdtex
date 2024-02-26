@@ -1,0 +1,6 @@
+!Texture
+Id: 7fd20c35-c348-45ee-a570-b10b17a0174e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Models/Stand/gum01_gls.dds
+Type: !GrayscaleTextureType {}

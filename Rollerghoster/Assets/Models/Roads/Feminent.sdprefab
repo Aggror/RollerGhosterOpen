@@ -1,0 +1,410 @@
+!PrefabAsset
+Id: fd618a21-042b-42e1-9148-1e98c5ef8f8c
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 6e3d938c-eae3-4249-96aa-eac7e1310ed6
+        - ref!! 4e40141c-ec73-43cf-b7e5-03856f66963b
+    Parts:
+        -   Folder: null
+            Entity:
+                Id: 0d14deb4-5b1d-40ba-987d-9b56495c95d8
+                Name: Box1x1x1
+                Components:
+                    029d7be3067b8290891090942c636611: !TransformComponent
+                        Id: 345bcaf5-c41f-4653-91a5-5004c6911543
+                        Position: {X: -4.178674, Y: -4.378938, Z: 14.0}
+                        Rotation: {X: 0.165762872, Y: -0.0517334864, Z: -0.3229107, W: 0.9303629}
+                        Scale: {X: 4.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    a19cefd8dc486581056dea469ce59d80: !ModelComponent
+                        Id: 72cd1fcc-4b86-4419-80aa-47537dbd5bcd
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            c92b467d5626856801d0ed7614032578~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    fdd05a81cf30803a075b8616cbec0606: !StaticColliderComponent
+                        Id: 8a0e8fca-0dd2-485d-a50a-f933bc91a75c
+                        CanSleep: false
+                        Restitution: 0.5
+                        Friction: 0.5
+                        RollingFriction: 0.01
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8a552c9eb0a5d09b6122804c4d012b11: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: null
+            Entity:
+                Id: 1469b18f-d25e-4e0c-b70c-486f11d0b796
+                Name: Box1x1x1
+                Components:
+                    029d7be3067b8290891090942c636611: !TransformComponent
+                        Id: e5d6420c-a94a-4b67-8fad-0b0cf1ecca7b
+                        Position: {X: 4.85980272, Y: -5.70695353, Z: 23.2843781}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.3007058, W: 0.953716934}
+                        Scale: {X: 4.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    a19cefd8dc486581056dea469ce59d80: !ModelComponent
+                        Id: 7d8e4d46-085a-4615-9584-8f9eca813c92
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            c92b467d5626856801d0ed7614032578~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    fdd05a81cf30803a075b8616cbec0606: !StaticColliderComponent
+                        Id: 1f1807b1-3e16-48cd-8212-69d0a12d9868
+                        CanSleep: false
+                        Restitution: 0.5
+                        Friction: 0.5
+                        RollingFriction: 0.01
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8a552c9eb0a5d09b6122804c4d012b11: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: null
+            Entity:
+                Id: 21cbad24-3708-4484-8d23-ce4294902389
+                Name: Box1x1x1
+                Components:
+                    029d7be3067b8290891090942c636611: !TransformComponent
+                        Id: 71ca1baa-fd6b-486f-abd6-98b69e88226d
+                        Position: {X: 0.0, Y: -6.66381073, Z: 41.2567978}
+                        Rotation: {X: 0.07230235, Y: 0.0, Z: 0.0, W: 0.99738276}
+                        Scale: {X: 7.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    a19cefd8dc486581056dea469ce59d80: !ModelComponent
+                        Id: 69fab640-87c9-4f23-b4df-766be72473ff
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            c92b467d5626856801d0ed7614032578~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    fdd05a81cf30803a075b8616cbec0606: !StaticColliderComponent
+                        Id: ae148d46-81b9-47a0-8de0-920fe568f7b0
+                        CanSleep: false
+                        Restitution: 0.5
+                        Friction: 0.5
+                        RollingFriction: 0.01
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8a552c9eb0a5d09b6122804c4d012b11: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: null
+            Entity:
+                Id: 3c2e08d4-5a81-48c2-b528-feda349961b0
+                Name: Box1x1x1
+                Components:
+                    029d7be3067b8290891090942c636611: !TransformComponent
+                        Id: c5563deb-fd04-4584-b69d-a85c12e1d8ee
+                        Position: {X: 3.99999976, Y: -4.39092827, Z: 14.0}
+                        Rotation: {X: 0.168502018, Y: 0.0419613048, Z: 0.323452145, W: 0.9301747}
+                        Scale: {X: 4.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    a19cefd8dc486581056dea469ce59d80: !ModelComponent
+                        Id: 7235d3c6-1e5b-46f8-ba1a-aea8e303ca5e
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            c92b467d5626856801d0ed7614032578~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    fdd05a81cf30803a075b8616cbec0606: !StaticColliderComponent
+                        Id: 00e51a51-fab4-4105-b3f5-5528338af1f2
+                        CanSleep: false
+                        Restitution: 0.5
+                        Friction: 0.5
+                        RollingFriction: 0.01
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8a552c9eb0a5d09b6122804c4d012b11: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 4e40141c-ec73-43cf-b7e5-03856f66963b
+                Name: Ribbon particle system
+                Components:
+                    82d5510045fe801e90136e485d09af73: !TransformComponent
+                        Id: 0c282bf7-d24d-4feb-9d00-2be2b33a8457
+                        Position: {X: -0.07893133, Y: -2.27837, Z: 35.63788}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8ef09a0b4f5b913345fdf481ee5ed132: !ParticleSystemComponent
+                        Id: 65c3a851-ba20-4672-b781-af511930b218
+                        Control:
+                            ResetSeconds: 5.0
+                            Control: Play
+                        Color: {R: 0.350000024, G: 1.0, B: 0.0, A: 1.0}
+                        Speed: 0.616
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                ab1789d483438467b9a5cc60c6e904b3:
+                                    ParticleLifetime: {X: 2.0, Y: 5.0}
+                                    SortingPolicy: ByOrder
+                                    ShapeBuilder: !ShapeBuilderRibbon
+                                        SmoothingPolicy: Best
+                                        Segments: 15
+                                        TextureCoordinatePolicy: Stretched
+                                        TexCoordsFactor: 1.0
+                                        UVRotate:
+                                            FlipX: false
+                                            FlipY: false
+                                            UVClockwise: Degree0
+                                    Material: !ParticleMaterialComputeColor
+                                        ComputeColor: !ComputeTextureColor
+                                            FallbackValue:
+                                                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                            Scale: {X: 1.0, Y: 1.0}
+                                            Offset: {X: 0.0, Y: 0.0}
+                                            Swizzle: null
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        fa539055b1efb8e8f92a4c7b93f6c60c: !SpawnerPerSecond
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 30.0
+                                    Initializers:
+                                        1803622143a5b31b00cea5df865e7dce: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.15, Y: 3.0, Z: -0.15}
+                                            VelocityMax: {X: 0.15, Y: 3.0, Z: 0.15}
+                                        a95e444f83deb13571bd71ced1b0a946: !InitialSpawnOrder
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                    Updaters:
+                                        bf2a1d2eeb13f7c0e302aa636915008b: !UpdaterSizeOverTime
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            SamplerMain: !ComputeCurveSamplerFloat
+                                                Curve: !ComputeAnimationCurveFloat
+                                                    KeyFrames:
+                                                        a16446f9d1d84605b62f635c08d26f03:
+                                                            Key: 0.0
+                                                            Value: 0.1
+                                                            TangentType: Linear
+                                                        61b0b445c15c50fe33699ca81dfa6a5e:
+                                                            Key: 0.9
+                                                            Value: 0.0
+                                                            TangentType: Linear
+                                            SamplerOptional: null
+                                            SeedOffset: 0
+                                        35106bc89b334fd5b61df170a0ec37cb: !UpdaterForceField
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: true
+                                            FieldShape: null
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: true
+                                            DisplayParticleScaleUniform: false
+                                            FieldFalloff:
+                                                StrengthInside: 1.0
+                                                FalloffStart: 0.1
+                                                StrengthOutside: 0.0
+                                                FalloffEnd: 0.9
+                                            EnergyConservation: 0.621
+                                            ForceDirected: 0.0
+                                            ForceVortex: 1.0
+                                            ForceRepulsive: 1.0
+                                            ForceFixed: {X: 0.0, Y: 0.0, Z: -2.0}
+        -   Entity:
+                Id: 4f217318-07f3-495e-9ff9-a587b83484c5
+                Name: End
+                Components:
+                    fc4493aeae1ec49734c84e0b7702072f: !TransformComponent
+                        Id: d37e81f2-eaa2-4509-8f0b-8a892cec7d6d
+                        Position: {X: -9.536743E-07, Y: -6.91916132, Z: 46.33791}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 6e3d938c-eae3-4249-96aa-eac7e1310ed6
+                Name: straight
+                Components:
+                    7c589a97c3fefdf61793aa3d6dfce6f4: !TransformComponent
+                        Id: 6a918723-0038-411b-98d5-889f95f2e566
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            937c136209a491e70f06fd640f20c449: ref!! d37e81f2-eaa2-4509-8f0b-8a892cec7d6d
+                            550ffbbe00a53aa2f2f41ea5a42886fb: ref!! 4e3893d4-2072-4b97-aeb0-7df915eb8866
+                            82c3a63f9c746dfb878887d0c3b71f1d: ref!! 345bcaf5-c41f-4653-91a5-5004c6911543
+                            f7afcb2c84eb654010ef22b44dedcc41: ref!! fb8ccda1-3469-4158-a35c-88581f0bd8ac
+                            2ff4a92edb07d7fa45740d6c39559dc6: ref!! c5563deb-fd04-4584-b69d-a85c12e1d8ee
+                            c648ef73fc9ff8f5fed894764dd1f601: ref!! b9fc2aba-8123-426f-96e9-490f46d20e14
+                            9ffefb2c14d83de194d245688df384c4: ref!! 71ca1baa-fd6b-486f-abd6-98b69e88226d
+                            26f2b286b6977c997d89ad2ae3f2b6a7: ref!! e5d6420c-a94a-4b67-8fad-0b0cf1ecca7b
+                            a811bc7f5b19ff3c1b08f96e2af88e82: ref!! 183160f1-4a76-4625-8d7b-de60c4c1c93a
+        -   Folder: null
+            Entity:
+                Id: 94f80114-7c82-49d7-8d39-744daeabcecb
+                Name: Box1x1x1
+                Components:
+                    029d7be3067b8290891090942c636611: !TransformComponent
+                        Id: 183160f1-4a76-4625-8d7b-de60c4c1c93a
+                        Position: {X: -5.18445539, Y: -5.6304245, Z: 23.2843781}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -0.3007058, W: 0.953716934}
+                        Scale: {X: 4.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    a19cefd8dc486581056dea469ce59d80: !ModelComponent
+                        Id: 33e8acbe-2a29-4b4f-b07b-2ea8d75a447d
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            c92b467d5626856801d0ed7614032578~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    fdd05a81cf30803a075b8616cbec0606: !StaticColliderComponent
+                        Id: a63a5a26-a54f-4bb2-a1d3-1b45cf633e15
+                        CanSleep: false
+                        Restitution: 0.5
+                        Friction: 0.5
+                        RollingFriction: 0.01
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8a552c9eb0a5d09b6122804c4d012b11: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: null
+            Entity:
+                Id: ceb3286f-bd2b-4cdc-90ae-d7ee1131b761
+                Name: Box1x1x1
+                Components:
+                    029d7be3067b8290891090942c636611: !TransformComponent
+                        Id: b9fc2aba-8123-426f-96e9-490f46d20e14
+                        Position: {X: 3.99999976, Y: -5.242928, Z: 33.0}
+                        Rotation: {X: -0.294889867, Y: 0.9495007, Z: -0.07086927, W: 0.08041154}
+                        Scale: {X: 4.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    a19cefd8dc486581056dea469ce59d80: !ModelComponent
+                        Id: 1e0715ab-4da9-47e2-9470-c2bd4ce75445
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            c92b467d5626856801d0ed7614032578~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    fdd05a81cf30803a075b8616cbec0606: !StaticColliderComponent
+                        Id: d603fba2-5196-482d-aa09-45957e56f113
+                        CanSleep: false
+                        Restitution: 0.5
+                        Friction: 0.5
+                        RollingFriction: 0.01
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8a552c9eb0a5d09b6122804c4d012b11: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: e48e1a74-49d1-42b8-a661-8c2d2f2de047
+                Name: Box1x1x1
+                Components:
+                    029d7be3067b8290891090942c636611: !TransformComponent
+                        Id: 4e3893d4-2072-4b97-aeb0-7df915eb8866
+                        Position: {X: 0.0, Y: -1.9688983, Z: 5.0}
+                        Rotation: {X: 0.137012243, Y: 0.0, Z: 0.0, W: 0.990569353}
+                        Scale: {X: 4.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    a19cefd8dc486581056dea469ce59d80: !ModelComponent
+                        Id: 43eab114-4cb6-4e13-8082-4b3ef9128414
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            c92b467d5626856801d0ed7614032578~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    fdd05a81cf30803a075b8616cbec0606: !StaticColliderComponent
+                        Id: 1485b72a-a1c7-4457-ad45-0d31789eded2
+                        CanSleep: false
+                        Restitution: 0.5
+                        Friction: 0.5
+                        RollingFriction: 0.01
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8a552c9eb0a5d09b6122804c4d012b11: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: null
+            Entity:
+                Id: f7472cdf-d72d-4eeb-9416-6724a7b31eb9
+                Name: Box1x1x1
+                Components:
+                    029d7be3067b8290891090942c636611: !TransformComponent
+                        Id: fb8ccda1-3469-4158-a35c-88581f0bd8ac
+                        Position: {X: -3.99999976, Y: -5.251, Z: 33.0}
+                        Rotation: {X: -0.294292569, Y: -0.9488017, Z: 0.0733107, W: 0.0882776}
+                        Scale: {X: 4.0, Y: 1.0, Z: 10.0}
+                        Children: {}
+                    a19cefd8dc486581056dea469ce59d80: !ModelComponent
+                        Id: 8a46c38c-3596-43b8-a4c0-bb2217526d42
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            c92b467d5626856801d0ed7614032578~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    fdd05a81cf30803a075b8616cbec0606: !StaticColliderComponent
+                        Id: 9acb47ad-8155-47d8-9935-d2376e0f89d6
+                        CanSleep: false
+                        Restitution: 0.5
+                        Friction: 0.5
+                        RollingFriction: 0.01
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8a552c9eb0a5d09b6122804c4d012b11: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

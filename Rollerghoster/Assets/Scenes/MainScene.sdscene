@@ -1,0 +1,688 @@
+!SceneAsset
+Id: d3bd4530-2842-4d39-9ff5-d7c510944e43
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! cd7264d4-d254-4363-ade1-793e56105c62
+        - ref!! 4b3c8a42-22e9-438d-81e4-bc0717bdaa5d
+        - ref!! 48c0673d-1846-416a-bf04-6313373d3243
+        - ref!! 7daf2c98-999c-4671-9184-aac2775c04a5
+        - ref!! c3be6c06-51f6-4b20-a4ef-f7000fd820ec
+        - ref!! 01fba08c-bdec-4252-b2fa-456354a71e1f
+    Parts:
+        -   Entity:
+                Id: 01fba08c-bdec-4252-b2fa-456354a71e1f
+                Name: UI
+                Components:
+                    08b8ccbc1bf930bf6d380e27a46b6022: !TransformComponent
+                        Id: baa94ef4-1429-425b-916c-c9b9507d5ce8
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e9f87b2cce48a67dbbbca9c5a2d70c17: ref!! 72fb3b52-725a-477b-a3dd-fe236c2a22d3
+                            bbf06d6e81f02928358a55ebf94931ab: ref!! 4de4fbe8-9661-491d-addd-70c79fc75ef3
+                            71a9aa1d641e5fd664146758274fa9fc: ref!! 64f34e56-2c76-407f-b0ed-a145c2617035
+                            480a42e9807758e25600fd1519d91801: ref!! 3192fb19-f95a-430a-ab2b-0bd7bb798505
+                            368506f131698b38ea3daeaf2e54b221: ref!! fc420dfc-b64b-4d9f-855b-d26e8f588ffa
+        -   Entity:
+                Id: 10926b4c-e570-4a50-9dbe-28775e979b6a
+                Name: Ribbon particle system
+                Components:
+                    1795a6c0a4701ef7d84475ac36c22fc4: !TransformComponent
+                        Id: ad847b8a-2513-4c61-84d3-4238bb061b5f
+                        Position: {X: 0.04822179, Y: 0.0, Z: 2.18769}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e29fc7a082ac03e3f28b73e948100dd3: !ParticleSystemComponent
+                        Id: e59f84d3-cb28-4ae0-920f-e3c0c3e509cf
+                        Control:
+                            ResetSeconds: 5.0
+                            Control: Play
+                        Color: {R: 0.54728913, G: 0.62525, B: 0.5431859, A: 1.0}
+                        Speed: 0.3
+                        ParticleSystem:
+                            Settings: {}
+                            BoundingShape: null
+                            Emitters:
+                                f59aafa8b801753659343c0dfb9c6f03:
+                                    ParticleLifetime: {X: 2.0, Y: 2.0}
+                                    SortingPolicy: ByOrder
+                                    ShapeBuilder: !ShapeBuilderRibbon
+                                        SmoothingPolicy: Best
+                                        Segments: 20
+                                        TextureCoordinatePolicy: Stretched
+                                        TexCoordsFactor: 1.0
+                                        UVRotate:
+                                            FlipX: false
+                                            FlipY: false
+                                            UVClockwise: Degree0
+                                    Material: !ParticleMaterialComputeColor
+                                        AlphaAdditive: 0.327
+                                        ComputeColor: !ComputeTextureColor
+                                            Texture: 613018c7-7119-414a-a8d7-131b0761649b:Models/Roads/TextureAndMaterials/Ball/iron_rust_dif
+                                            FallbackValue:
+                                                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                                            Scale: {X: 1.0, Y: 1.0}
+                                            Offset: {X: 0.0, Y: 0.0}
+                                            Swizzle: null
+                                        UVBuilder: null
+                                        ForceTexCoords: false
+                                    Spawners:
+                                        259b69d597c29815a18943966993d227: !SpawnerPerSecond
+                                            LoopCondition: Looping
+                                            Delay: {X: 0.0, Y: 0.0}
+                                            Duration: {X: 1.0, Y: 1.0}
+                                            SpawnCount: 30.0
+                                    Initializers:
+                                        b952b82d573e993111faf8863b58d825: !InitialVelocitySeed
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            SeedOffset: 0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: true
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: true
+                                            VelocityMin: {X: -0.15, Y: 1.0, Z: -0.15}
+                                            VelocityMax: {X: 0.15, Y: 2.0, Z: 0.15}
+                                        682a2015ce953303e234a5bb589406d5: !InitialSpawnOrder
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                    Updaters:
+                                        2e6a6261ab99953ce33d958a14a108f2: !UpdaterSizeOverTime
+                                            InheritPosition: true
+                                            Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                                            InheritRotation: true
+                                            Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                                            InheritScale: true
+                                            Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                                            ScaleUniform: 1.0
+                                            DisplayParticlePosition: false
+                                            DisplayParticleRotation: false
+                                            DisplayParticleScale: false
+                                            DisplayParticleScaleUniform: false
+                                            SamplerMain: !ComputeCurveSamplerFloat
+                                                Curve: !ComputeAnimationCurveFloat
+                                                    KeyFrames:
+                                                        b45926c923fcd1f55d4764aaf8854b36:
+                                                            Key: 0.0
+                                                            Value: 0.1
+                                                            TangentType: Linear
+                                                        03749241a84d26f351cf6b9a6ba033a4:
+                                                            Key: 0.9
+                                                            Value: 0.0
+                                                            TangentType: Linear
+                                            SamplerOptional: null
+                                            SeedOffset: 0
+        -   Entity:
+                Id: 165054dd-2f62-403f-abcf-ef4f6f27c00f
+                Name: IngameUI
+                Components:
+                    052bb17c6dd7381523a8b028ef79fdf2: !TransformComponent
+                        Id: 64f34e56-2c76-407f-b0ed-a145c2617035
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a6c35c10bb5c713796bff991033540d3: !UIComponent
+                        Id: 5d55bce0-e9ba-4b0a-a927-fd196962bda4
+                        Enabled: false
+                        Page: 6bef4616-4710-4e68-9c20-826769061e9b:UI/Ingame
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                    3b717f0d9a6d4fb9ebff855961db8fa7: !Rollerghoster.UI.IngameUI,Rollerghoster
+                        Id: f28e7350-c287-43ce-8182-e8a2aca1a8a2
+                        marble: ref!! ba6b971e-ada4-4872-8eb5-8135d8f63b49
+        -   Entity:
+                Id: 234d4ec2-b739-43f5-8bdf-23632b9176fa
+                Name: Pd_ground
+                Components:
+                    9606d6d5f546c86f6fb2ac35b8709011: !TransformComponent
+                        Id: 9d123652-39b3-4b77-9850-624b4bed135f
+                        Position*: {X: 0.0, Y: 0.34431583, Z: 1.3762406}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.5, Y: 0.5, Z: 0.5}
+                        Children: {}
+                    1a29b5ddaaac55f7599d227d7b99c212: !ModelComponent
+                        Id: 873b5cd3-acf0-4e12-8047-787cbdb75e57
+                        Model: 0a915286-b39b-4c96-a1f9-ffa2a9e59218:Models/Stands/Pd_ground
+                        Materials:
+                            2240dcb19020ccac6819fea2c4b72519*~0: 8c0a0205-e39c-4b2f-959f-341c03cb99a4:Models/Stands/LightDullSilver
+                    fb850ef04e4feeaa15b60ad150290ad8: !StaticColliderComponent
+                        Id: eb86522e-1214-41c6-ae72-bacc57f71660
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            2136b76353709deb36d9727d792fb661: !ColliderShapeAssetDesc
+                                Shape: 2043b201-6b50-41db-ad7f-103119496995:Models/Stands/ColliderHull
+            Base:
+                BasePartAsset: 68ed38a9-8494-4ffe-9e0b-d2c0c9a543b7:Models/Roads/Start
+                BasePartId: 390082a8-fb9a-461b-a202-407c34e3038e
+                InstanceId: 9405f803-f3a8-4ac1-907c-9797c4dffbe4
+        -   Entity:
+                Id: 30c92883-21c4-4665-b21e-01af46c3ac37
+                Name: CameraPivot
+                Components:
+                    6862218fb1bd046645033b4987943b7f: !TransformComponent
+                        Id: a1036528-b0a7-4a7c-9269-54039628a31d
+                        Position*: {X: 0.0, Y: 0.0, Z: -8.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4f7b708c7bb6fc548b34416c9141ec9e: ref!! b7fff2c7-bf0e-4a3c-bac3-edfc806e6982
+            Base:
+                BasePartAsset: 2f8d94b1-ce7e-4f28-8802-16236d4fe6f1:Models/MarbleRoot
+                BasePartId: 5198945e-5bed-4138-befd-f76b4a1c9138
+                InstanceId: 0fda83de-b939-4a79-9904-97fc84dcdd44
+        -   Entity:
+                Id: 34d50487-b3e5-4f24-aa52-df78e6ca5f50
+                Name*: Finish
+                Components:
+                    3a217de1442df3d6a26a709765b97e09: !TransformComponent
+                        Id: 43761cf4-6383-4e19-a97f-205c770ef143
+                        Position*: {X: 0.0, Y: 0.151342, Z: 2.0976524}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.5, Y: 0.5, Z: 0.5}
+                        Children: {}
+                    fa04d7a4e3264031df93559acb079eeb: !ModelComponent
+                        Id: 1f8ae162-2076-40ce-9087-720e22c0d629
+                        Model: 0a915286-b39b-4c96-a1f9-ffa2a9e59218:Models/Stands/Pd_ground
+                        Materials:
+                            792dac7066b75bdd9148416e72543f2b*~0: 8c0a0205-e39c-4b2f-959f-341c03cb99a4:Models/Stands/LightDullSilver
+                    e4bf6ef47f47dbe78e10b66957a2db15*: !Rollerghoster.Track.Finish,Rollerghoster
+                        Id: a0392a56-4491-4ad9-a9ce-abc5caea6be6
+                        finishUI: ref!! 5ba5863b-53a4-42a1-bf27-70aa9b0d17b5
+                        marble: ref!! ba6b971e-ada4-4872-8eb5-8135d8f63b49
+                        distanceToFinish: 1.6
+                        suction: 200.0
+                        finished: false
+            Base:
+                BasePartAsset: d7851086-fe38-4ae4-8c30-9b0803ef9b58:Models/Roads/Finish
+                BasePartId: db0276b2-f7fd-42d1-beaa-e1dba8cb0e12
+                InstanceId: d543ac67-86bd-41f6-93de-634656828535
+        -   Entity:
+                Id: 3ec12526-1303-4a55-8430-76b2dd940156
+                Name: Skybox light
+                Components:
+                    db6dea58f272eed026d3a4cbe8e42adb: !TransformComponent
+                        Id: a510f242-4fc8-4d9e-af04-4eb9c3ccc879
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    dc50a5400c92c42db440fd63a73c115d: !LightComponent
+                        Id: b711d5ae-98c2-4d97-a4b2-9a411fd513f2
+                        Type: !LightSkybox
+                            Skybox: 808eed05-bb83-4778-8f06-839958c53e4b:Textures/Skybox/OuterSpace
+                        Intensity: 0.2
+                    6d1c1af62b45ebb1ce142a59fad9d893: !BackgroundComponent
+                        Id: 6ec6ca5c-f0f3-4603-ac1d-c928054387b7
+                        Texture: bcf63862-0dc7-4726-9301-a20ed7eade56:Textures/Skybox/Starbasesnow
+                        Intensity: 0.5
+        -   Entity:
+                Id: 48c0673d-1846-416a-bf04-6313373d3243
+                Name: FinishBase
+                Components:
+                    470c1e349125a5ac19a7d3012a9481b5: !TransformComponent
+                        Id: 5f230145-060f-4951-b317-5dd2660cb9c7
+                        Position*: {X: 0.0, Y: 0.0, Z: 4.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            26b785184dcd3545b1bbad13b1dfb5e3: ref!! 39bb8414-e38b-4c26-b336-a5864c43b92c
+                            6f8079b2a62493cd462599fd720f47c2: ref!! 43761cf4-6383-4e19-a97f-205c770ef143
+                            9faab08a4ef7f4b996e52f4fba7fb59e: ref!! ad847b8a-2513-4c61-84d3-4238bb061b5f
+            Base:
+                BasePartAsset: d7851086-fe38-4ae4-8c30-9b0803ef9b58:Models/Roads/Finish
+                BasePartId: 33a26552-fe1f-4151-afe7-7e76286825d6
+                InstanceId: d543ac67-86bd-41f6-93de-634656828535
+        -   Entity:
+                Id: 4b3c8a42-22e9-438d-81e4-bc0717bdaa5d
+                Name: StartBase
+                Components:
+                    a29d5b7574f7f0a0b9f44833d5d73b99: !TransformComponent
+                        Id: 45f335bb-d6d9-44ab-9e1d-80dee46b0aa7
+                        Position*: {X: 0.0, Y: 0.0, Z: -1.3588692}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            289e44ee0480bc894d0f2d1d1fe6497f: ref!! ecfd7c09-e9c3-46f8-8512-2d64f7ad033c
+                            9f5aad6a661f8a9f7f489754b1d53ea8: ref!! 64164d23-3982-4bff-ac09-4487a80baee0
+                            74e58bc1e46ad9f8a163704f0fd0b49b: ref!! 9d123652-39b3-4b77-9850-624b4bed135f
+            Base:
+                BasePartAsset: 68ed38a9-8494-4ffe-9e0b-d2c0c9a543b7:Models/Roads/Start
+                BasePartId: 40b54474-8926-4200-b3d9-a97ad9c333eb
+                InstanceId: 9405f803-f3a8-4ac1-907c-9797c4dffbe4
+        -   Folder: null
+            Entity:
+                Id: 4dbe890e-898d-43c7-8155-7f324ce735e3
+                Name: SettingsUI
+                Components:
+                    052bb17c6dd7381523a8b028ef79fdf2: !TransformComponent
+                        Id: 4de4fbe8-9661-491d-addd-70c79fc75ef3
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d8c94e65d403b9e4ab12802bef0aa4d5: !UIComponent
+                        Id: bf82888a-98bf-4461-b40e-660fd22ae7dd
+                        Enabled: false
+                        Page: 11bf4eda-1f5b-4382-9e12-76bac55d5540:UI/SettingsMenu
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                    ce60762a196e71ec29e89fc50e42ab31: !Rollerghoster.UI.SettingsUI,Rollerghoster
+                        Id: 2e46e00a-b24d-4426-be4c-d63259355ac2
+                        _changedSoundSettings: null
+                        _changedControlsSettings: null
+                        _changedGeneralSettings: null
+                        _changedVisualsSettings: null
+        -   Entity:
+                Id: 5602639e-9631-4a0e-9c2c-e1d8e9b5d686
+                Name: MainMenuUI
+                Components:
+                    052bb17c6dd7381523a8b028ef79fdf2: !TransformComponent
+                        Id: 72fb3b52-725a-477b-a3dd-fe236c2a22d3
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d8c94e65d403b9e4ab12802bef0aa4d5: !UIComponent
+                        Id: b148966b-1338-4e65-8715-38cf0b9f9f81
+                        Page: 522f0cb2-0247-448e-a43c-29d1ac761008:UI/Main menu
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                    65505c8d9d8c29e3eb6dc3270abe5a9b: !Rollerghoster.UI.MainMenuUI,Rollerghoster
+                        Id: 9d91bd03-247a-490c-a0fa-5284289eac1b
+                        trackGenerator: ref!! 0cb9210a-ae28-40f2-9358-c5844eb5aae5
+                        marble: ref!! ba6b971e-ada4-4872-8eb5-8135d8f63b49
+                        Top10SeedsPanel: null
+                        Top10SeedsList: null
+                        Top10SeedsButton: null
+                        Top10LatestPanel: null
+                        Top10LatestList: null
+                        Top10LatestButton: null
+                        RecordsPanel: null
+                        RecordsList: null
+                        RecordName: null
+                        RecordTime: null
+                        Seed: null
+                        UserName: null
+        -   Entity:
+                Id: 74494bf7-b627-4490-a20a-1d8b5e1ea451
+                Name: Ambient light
+                Components:
+                    bbfeb008e33508cea75e940d506c4d10: !TransformComponent
+                        Id: 631b1e6a-7afc-43cf-b81f-262aa1d8bd3c
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    f8942b1f32fe21230e544218827f95de: !LightComponent
+                        Id: a1a8b57a-020a-46b2-aca7-d6a1e25844dd
+                        Type: !LightAmbient
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                        Intensity: 0.1
+        -   Entity:
+                Id: 77e12a21-0901-4fcc-886b-59c7e1e7cb68
+                Name: Directional light
+                Components:
+                    3ecafe2150c3bcb2801489d28d77bf47: !TransformComponent
+                        Id: 46ba6c91-2044-4461-88af-d42dbd42e6cb
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: -0.17015809, Y: 0.7304436, Z: 0.21941707, W: 0.62398267}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    050218611fa990f7ecf5e2746cb0e191: !LightComponent
+                        Id: 237d85ed-d99a-4bc7-a1f2-e4c41c9af0be
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow: !LightDirectionalShadowMap
+                                Enabled: true
+                                Size: XLarge
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+        -   Entity:
+                Id: 7daf2c98-999c-4671-9184-aac2775c04a5
+                Name: TrackGenerator
+                Components:
+                    d9f0b6eec23bad162108239c1e6cd5ae: !TransformComponent
+                        Id: 16742915-3910-48d1-af09-7a3ad5f70280
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    7d05e3a3a4afc24b3cde62d08fa19067: !Rollerghoster.Track.TrackGenerator,Rollerghoster
+                        Id: 0cb9210a-ae28-40f2-9358-c5844eb5aae5
+                        trackAmount: 20
+                        start: ref!! 4b3c8a42-22e9-438d-81e4-bc0717bdaa5d
+                        finish: ref!! 48c0673d-1846-416a-bf04-6313373d3243
+                        trackPrefabs:
+                            213ecf47f65087d333f8ff579fa6fb5e: c493455c-a72e-4430-b9a5-69c6243b2f21:Models/Roads/cornerLeft
+                            d888a1cebfe6e61431449b3ced43c7ea: ea37a7e9-2299-4290-afde-147b4cea339e:Models/Roads/cornerleftbouncewall
+                            91cae477e247171dcc6775b2eb7fb9bc: b00d345c-968d-44fa-a390-9da1ce9cc661:Models/Roads/down
+                            5d057eab37e9b4f5c03fc0f133620fc2: ae2e4b5d-8692-409f-9f93-62a6b5824aef:Models/Roads/downbridge
+                            df0870dd2dba1261aba7da34af639e37: 0b819508-8e27-454b-867d-f9fefce2b048:Models/Roads/leftbank
+                            78bfdcdea252756b31fc39e5bc74fdeb: d85381b0-1748-41a9-be16-2cc17832dc44:Models/Roads/long+cylinders
+                            d6df657ee1dce3afd7764a09c34279f0: c68ac06b-df4d-41d5-91f6-70c7a182360e:Models/Roads/righbank
+                            f4c53ec0ac7c8cafdefec0eb97a60076: 07402049-4629-4b7c-8511-ec8c1585d74a:Models/Roads/rightDownward
+                            a7899b2840f30f954f0220a82596d46d: 08a8d12c-aa37-4ee9-be1b-6c376605f8ae:Models/Roads/right upcorner
+                            838d4ded1996d905492615aa949a4780: 7bdc7c36-6636-4fce-8ae4-8822e3708a9e:Models/Roads/Straight10x10
+                            3c00efb4bd4707f094554762146fbb73: ff3de5bf-1d24-484b-b577-1e52312a3694:Models/Roads/thin dual
+                            2660db1a421e5025bfa3c0676322f2ab: e62fe5fa-0f48-435d-9d13-c610fde43408:Models/Roads/Up
+                            2e3ea1f3c8c63836a4532808e365b7df: 324e02ed-2bb3-4b09-95ae-7772393c6717:Models/Roads/upbridge
+                            738d9c2d38f42ea91a41597ffb0d8b16: 352f3008-5c31-4105-9460-f74f20bf54af:Models/Roads/updowncombo
+                            bfb178f7241a8a9e2c4d347d91668d0d: 1d63fdd1-2d40-4484-8156-196c2463e959:Models/Roads/wonky bend
+                            32cddc147716e28739a6bd5a03546e29: 21a1573d-0a4e-4fe4-890a-fd5cf5ccccea:Models/Roads/Leftdownward
+                            237c3dead1d3b858a953ff0b254b0bbe: fd618a21-042b-42e1-9148-1e98c5ef8f8c:Models/Roads/Feminent
+        -   Folder: null
+            Entity:
+                Id: 8308e31a-74de-40e2-9db7-37f5441d29cb
+                Name: PauseUI
+                Components:
+                    052bb17c6dd7381523a8b028ef79fdf2: !TransformComponent
+                        Id: fc420dfc-b64b-4d9f-855b-d26e8f588ffa
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a6c35c10bb5c713796bff991033540d3: !UIComponent
+                        Id: eef13813-48a1-487c-826c-600892a595ad
+                        Enabled: false
+                        Page: 5c2dcac8-0771-433a-87c2-dcb417c77e33:UI/PauseUI
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                    3d33a6c08891e826fa4834ac9a0686f5: !Rollerghoster.UI.PauseUI,Rollerghoster
+                        Id: b3993ec3-a7ca-4de4-9af6-e62a033d448a
+                        marble: ref!! ba6b971e-ada4-4872-8eb5-8135d8f63b49
+        -   Entity:
+                Id: 850572c2-7ad3-4d71-9cca-0e635f8e5f98
+                Name: Camera
+                Components:
+                    fedf82cb7895da2714575690b9cede44: !TransformComponent
+                        Id: b7fff2c7-bf0e-4a3c-bac3-edfc806e6982
+                        Position*: {X: 0.0, Y: 1.4162908, Z: 0.6685635}
+                        Rotation*: {X: 1.9944002E-10, Y: 0.9999896, Z: -0.004562672, W: -4.3710934E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    ef61ebfcd299b25d97ba95fe63e64908*: !CameraComponent
+                        Id: 13ad7d91-7fe3-49da-bf0d-d9afeb151881
+                        Name: null
+                        Projection: Perspective
+                        Slot: 640bb22c-2ca3-4db2-8c9a-28680d5bbebf
+                    957187fe7dd508541f3ed6b1960da65a: ~(Deleted)
+            Base:
+                BasePartAsset: 2f8d94b1-ce7e-4f28-8802-16236d4fe6f1:Models/MarbleRoot
+                BasePartId: 3504f118-5b50-4f3f-9532-7fea06f38f93
+                InstanceId: 0fda83de-b939-4a79-9904-97fc84dcdd44
+        -   Entity:
+                Id: ba6b971e-ada4-4872-8eb5-8135d8f63b49
+                Name: Marble
+                Components:
+                    6cc9a74d5f1d4032400b3c421165f552: !TransformComponent
+                        Id: 0438ac7f-ffac-48b4-bffb-e1f0d42de8e6
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d379ecf0bd14f6fef4d6ad0a4250aa4e: !ModelComponent
+                        Id: bb3c315c-4c8f-458f-a088-b24e5149446b
+                        Model: a6d7b9ff-3cf0-4619-817b-5c4f8d222dc4:Models/Sphere
+                        Materials:
+                            abf6233e2c1c3acd956b820762a265a5*~0: e563c52d-f464-4a20-9728-56c878614535:Models/Roads/TextureAndMaterials/Ball/Material
+                    ff857b313d8c91ec2be08cd3212006e5: !RigidbodyComponent
+                        Id: 8e9f4738-4679-4474-9089-dfad4fc757af
+                        CanSleep: false
+                        Restitution*: 0.6
+                        Friction: 2.0
+                        RollingFriction*: 0.25
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 5.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity*: true
+                        Gravity*: {X: 0.0, Y: -16.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            f9ec4188355fefc9910130eab5f39c0f: !SphereColliderShapeDesc
+                                Is2D: false
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                    be29a3a9b76e199e6ee34afd3652f0ce*: !Rollerghoster.Windows.CorpseTracker,Rollerghoster
+                        Id: 1f5dfa77-f8e3-4d4e-881c-905fc8506ac5
+                        corpse: e574bd50-fdf7-4a84-a40d-432015d15d55:Models/Corpse
+                        ui: ref!! f28e7350-c287-43ce-8182-e8a2aca1a8a2
+                    3b314d90315919d8e6795e58bdd56d4d*: !Rollerghoster.Windows.GhostTracker,Rollerghoster
+                        Id: 8678e440-2821-4329-8ad9-4238f761bab7
+                        storePosTime: 0.1
+                        localGhostPrefab: c796a07d-af0c-4f4a-945f-3e7b484b01e3:Models/LocalGhost
+                        onlineGhostPrefab: 9e82a9b2-a153-4166-87ab-5a0f81f386ef:Models/OnlineGhost
+                        onlineGoldGhostPrefab: 8ff4d295-7d61-4188-935e-ffaa4c5bac0d:Models/GoldGhost
+                        onlineSilverGhostPrefab: 1ee5a0b6-a345-488c-9ad2-94d8e89d66e7:Models/SilverGhost
+                        onlineBronzeGhostPrefab: 8784d6d3-3c76-40d1-91a6-3ae9a6255046:Models/BronzeGhost
+                        ui: ref!! f28e7350-c287-43ce-8182-e8a2aca1a8a2
+                    52acc2f666671ee520884bf8a765d0e0*: !Rollerghoster.Windows.BallCamera,Rollerghoster
+                        Id: db87cb69-f3fb-4259-8a21-999891bf975e
+                        Priority: 4
+                        cameraPivot: ref!! 30c92883-21c4-4665-b21e-01af46c3ac37
+                        fpPivot: ref!! c919833a-cd73-4422-8c2a-b8c07bb797d0
+                        tpPivot: ref!! d2fdbcc5-192e-481f-8e67-3ed461db542a
+                        mouseSpeedMultiplier: {X: 4.0, Y: 2.0}
+                        smoothMouse: true
+                        smoothMouseMultiplier: 0.2
+                        camAngles: {X: 20.0, Y: 70.0}
+                    9c81268e7981558585dbf7affe92a956*: !Rollerghoster.Windows.BallMover,Rollerghoster
+                        Id: 15f199c9-d63d-496a-b494-c2fa35ce7e7e
+                        Priority: 5
+                        ballSpeed: {X: 70.0, Y: 0.0, Z: 60.0}
+            Base:
+                BasePartAsset: 2f8d94b1-ce7e-4f28-8802-16236d4fe6f1:Models/MarbleRoot
+                BasePartId: ac8e0364-52f3-4f5b-8894-40d73fc588e5
+                InstanceId: 0fda83de-b939-4a79-9904-97fc84dcdd44
+        -   Entity:
+                Id: c3be6c06-51f6-4b20-a4ef-f7000fd820ec
+                Name: MarbleRoot
+                Components:
+                    e5df1a47f756f04ca9ce1b0088eb6b01: !TransformComponent
+                        Id: cc103764-5d15-4801-a0d9-57b4e72ff1fe
+                        Position*: {X: 0.0, Y: 0.8307544, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            d1f90377fd63e82a05e337b56c0dea48: ref!! a1036528-b0a7-4a7c-9269-54039628a31d
+                            0e675c40dc67bb3c548e2fb21377abf8: ref!! 3a57c729-1411-4876-a72d-ef7314824908
+                            3f4f2df4bd0759af6faf5c42bd21b39e: ref!! 7c60a8a9-986e-4e20-800d-410e6fc1ef64
+                            8de0619f342dadd03fcc46e6e3392aef: ref!! 0438ac7f-ffac-48b4-bffb-e1f0d42de8e6
+            Base:
+                BasePartAsset: 2f8d94b1-ce7e-4f28-8802-16236d4fe6f1:Models/MarbleRoot
+                BasePartId: ce846fb6-83ee-4b6f-9ab0-74b9f4f13956
+                InstanceId: 0fda83de-b939-4a79-9904-97fc84dcdd44
+        -   Entity:
+                Id: c919833a-cd73-4422-8c2a-b8c07bb797d0
+                Name: fp
+                Components:
+                    6da76b5ff789f1b748c57dad01ac0110: !TransformComponent
+                        Id: 7c60a8a9-986e-4e20-800d-410e6fc1ef64
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+            Base:
+                BasePartAsset: 2f8d94b1-ce7e-4f28-8802-16236d4fe6f1:Models/MarbleRoot
+                BasePartId: 35387242-92eb-437c-85b5-545939c1c799
+                InstanceId: 0fda83de-b939-4a79-9904-97fc84dcdd44
+        -   Entity:
+                Id: cac73959-49d0-4abc-8353-27f40fc26486
+                Name: End
+                Components:
+                    0e16b0ef51f78d68714b032aa00ae8f2: !TransformComponent
+                        Id: 64164d23-3982-4bff-ac09-4487a80baee0
+                        Position*: {X: 4.334919E-08, Y: 0.01696828, Z: 4.051495}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+            Base:
+                BasePartAsset: 68ed38a9-8494-4ffe-9e0b-d2c0c9a543b7:Models/Roads/Start
+                BasePartId: 14a39f0c-3c3e-430c-9aa3-3b3feda29e08
+                InstanceId: 9405f803-f3a8-4ac1-907c-9797c4dffbe4
+        -   Entity:
+                Id: cd7264d4-d254-4363-ade1-793e56105c62
+                Name: Details
+                Components:
+                    d52fa3b31e62814e61e5decabe4c4596: !TransformComponent
+                        Id: fc5c8ec4-5162-459c-81c5-36dd9a264085
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            e9312cb1470a4ffdb1cec33ece7bb820: ref!! 34975e0e-6be3-4990-b081-31d292b597f1
+                            bac383291c7f36e9b0a4e62cf5aa2caf: ref!! a510f242-4fc8-4d9e-af04-4eb9c3ccc879
+                            39822dc72b0988f3d311ddf0744ec300: ref!! 46ba6c91-2044-4461-88af-d42dbd42e6cb
+                            ba6e87b5f5414cc4dd0e8f045d5bde6c: ref!! 631b1e6a-7afc-43cf-b81f-262aa1d8bd3c
+        -   Entity:
+                Id: d2fdbcc5-192e-481f-8e67-3ed461db542a
+                Name: tp
+                Components:
+                    6da76b5ff789f1b748c57dad01ac0110: !TransformComponent
+                        Id: 3a57c729-1411-4876-a72d-ef7314824908
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+            Base:
+                BasePartAsset: 2f8d94b1-ce7e-4f28-8802-16236d4fe6f1:Models/MarbleRoot
+                BasePartId: 582c8688-ac9e-429d-9f35-6cd6d2c552a8
+                InstanceId: 0fda83de-b939-4a79-9904-97fc84dcdd44
+        -   Entity:
+                Id: dbe522ba-4423-4277-8f31-94c8728650bd
+                Name: Sound
+                Components:
+                    43115e588d9d6781812329734e7378ad: !TransformComponent
+                        Id: 34975e0e-6be3-4990-b081-31d292b597f1
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1d729493d2db2934a41547a4212e8e15: !Rollerghoster.UI.MusicManager,Rollerghoster
+                        Id: 4aa79cd3-ffd3-4ad5-a4b2-d7a7925dd7db
+                        Priority: 4
+                        SoundMusic: ee6cad25-ef2e-4efd-bc74-216629930bb2:Sounds/soundtrack1
+        -   Entity:
+                Id: ebddce00-0c75-41ee-925b-2ee9dd3295d8
+                Name: box
+                Components:
+                    14507973d1d5420ae9d752b570738c40: !TransformComponent
+                        Id: ecfd7c09-e9c3-46f8-8512-2d64f7ad033c
+                        Position*: {X: 0.0, Y: -0.46337783, Z: 1.9605236}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale*: {X: 3.0, Y: 1.0, Z: 4.0}
+                        Children: {}
+                    caa563c0fff2bad2a3149a53c7dd68bb: !ModelComponent
+                        Id: a6d71314-d666-43c5-a899-ea86d20e7995
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            8fe5a92bf711c9126e9075a705fa3cd0~0: 7d59b988-221e-4063-862d-fcd58bfcdbfb:Models/Stands/DullSilver
+                    476efa567c0b0aa1aa72dc61fa7c8979: !StaticColliderComponent
+                        Id: 7ba08d4e-35d1-4a6a-a880-a0cb6063033f
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            de194bb492553b0bd3369ba92c9d65bf: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: 68ed38a9-8494-4ffe-9e0b-d2c0c9a543b7:Models/Roads/Start
+                BasePartId: 8aae2d04-8dd9-49f1-95f3-de46aff6eb5b
+                InstanceId: 9405f803-f3a8-4ac1-907c-9797c4dffbe4
+        -   Entity:
+                Id: f06b7a04-7613-4914-88b8-2b1e765fb02f
+                Name: finishplatform
+                Components:
+                    14507973d1d5420ae9d752b570738c40: !TransformComponent
+                        Id: 39bb8414-e38b-4c26-b336-a5864c43b92c
+                        Position*: {X: 0.0, Y: -0.49132007, Z: 1.9872584}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 3.0, Y: 1.0, Z: 4.0}
+                        Children: {}
+                    caa563c0fff2bad2a3149a53c7dd68bb: !ModelComponent
+                        Id: ca23f0f6-d3b5-4385-b387-cb4e5983ebf5
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            8fe5a92bf711c9126e9075a705fa3cd0~0: 7d59b988-221e-4063-862d-fcd58bfcdbfb:Models/Stands/DullSilver
+                    1d1b8e53087f74abbc1167ee4c11b9eb: !StaticColliderComponent
+                        Id: cd4f9d1b-85d4-4acb-9ef7-8876ff326581
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        AlwaysUpdateNaviMeshCache: false
+                        ColliderShapes:
+                            44c3e2c3587d2ac20ffa28533d4806a5: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+            Base:
+                BasePartAsset: d7851086-fe38-4ae4-8c30-9b0803ef9b58:Models/Roads/Finish
+                BasePartId: 60064ab5-a486-4619-a161-f00e99dbabba
+                InstanceId: d543ac67-86bd-41f6-93de-634656828535
+        -   Folder: null
+            Entity:
+                Id: fcdf7ee0-d647-4a20-a57b-f3dd85a4c6e7
+                Name: FinishUI
+                Components:
+                    052bb17c6dd7381523a8b028ef79fdf2: !TransformComponent
+                        Id: 3192fb19-f95a-430a-ab2b-0bd7bb798505
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    a6c35c10bb5c713796bff991033540d3: !UIComponent
+                        Id: f56f28b1-13cd-416d-82d9-3929db102b91
+                        Enabled: false
+                        Page: fa57612e-ca08-4a7a-8445-58fcf5453695:UI/FinishUI
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                    4647ede96b0065fda80b432265d71563: !Rollerghoster.UI.FinishUI,Rollerghoster
+                        Id: 5ba5863b-53a4-42a1-bf27-70aa9b0d17b5
+                        marble: ref!! ba6b971e-ada4-4872-8eb5-8135d8f63b49

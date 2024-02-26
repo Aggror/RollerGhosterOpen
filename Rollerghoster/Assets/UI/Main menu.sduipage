@@ -1,0 +1,743 @@
+!UIPageAsset
+Id: 522f0cb2-0247-448e-a43c-29d1ac761008
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 06b8961c-8374-444e-90a3-ee0324e6bac8
+    Parts:
+        -   UIElement: !Canvas
+                Id: 034fb0f4-c234-4322-b94d-54d10bf4f752
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 398.0
+                Height: 720.0
+                HorizontalAlignment: Left
+                Margin: {Left: 14.0}
+                Name: MainCanvas
+                Children:
+                    9753f4f3f92e9b359a20d5aae076557c: !TextBlock ref!! 4740847b-a565-4a95-93f9-d46e5927ebd3
+                    d6811a71f7ed6121d572adf24545d55f: !Canvas ref!! 4ae30e04-ea4d-4cb9-9e9c-07e5084d2a03
+                    b67367902ce3b7baadf25edc26d634f3: !Canvas ref!! e20b0788-4091-4b9b-a454-b7c73e80b5b8
+        -   UIElement: !Grid
+                Id: 06b8961c-8374-444e-90a3-ee0324e6bac8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 720.0
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Children:
+                    cfcf73a2224cf10be2d8eb7d93ecd362: !Canvas ref!! 034fb0f4-c234-4322-b94d-54d10bf4f752
+                    3b4848ffe6853786039f52414a85de2a: !TextBlock ref!! c0794d5f-5eff-4b66-b1e4-da5376d549ce
+                    0289ea9e4a41101d34231b7be99dc9cc: !TextBlock ref!! cdb05761-c24a-4c7b-b6e2-5c998fa4f11c
+                    fa25ab968c3c898f7576a0935b44ff36: !StackPanel ref!! 58d91831-7d71-44fb-ad10-4e83ac1bc3ff
+                    de514660a8ac9768b7259405918eb0ba: !StackPanel ref!! fb8fe383-b1b8-4ffc-957b-34288b85f671
+                    65af002add7e39dc9f393c822a08172f: !StackPanel ref!! fcc930ff-82e5-4fc2-97bc-b195614b93a0
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: 0a581ec0-f3cb-47a2-9ed5-0b06fc8d6e01
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 215.0
+                Height: 25.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 506.0}
+                Name: Campain levels
+                Text: Campaign levels
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 22.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Button
+                Id: 0ec44dd1-e422-4ec5-b6ae-ec35396b636b
+                DependencyProperties:
+                    ba2f9bfbf6950ab295d3283f0558a720~Canvas.PinOriginPropertyKey: {X: 0.0, Y: 0.0, Z: 0.0}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 30.0
+                Height: 28.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 83.0, Top: 531.0}
+                Name: Level3Btn
+                Content: !TextBlock ref!! a3e9f270-d503-4ad2-bb35-dff6dd459133
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+        -   UIElement: !TextBlock
+                Id: 23281ca9-6b9a-4483-b88e-ca5310c7a762
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Name: 
+                Text: Settings
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !StackPanel
+                Id: 32f93138-5671-4804-bd42-7b95edc1120a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 451.0
+                Height: 579.0
+                VerticalAlignment: Top
+                Margin: {}
+                Name: TopRecordsList
+                Children: {}
+        -   UIElement: !TextBlock
+                Id: 34693e4e-47cc-48a9-b515-2e1a1dfe29b9
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Name: Random seed
+                Text: Randomize
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Button
+                Id: 375ed1f7-761f-434c-b18f-1e38d3f5e622
+                DependencyProperties: {}
+                BackgroundColor: {R: 196, G: 23, B: 94, A: 0}
+                DrawLayerNumber: 2
+                Width: 225.0
+                Height: 28.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 583.0}
+                Name: SettingsBtn
+                Content: !TextBlock ref!! 23281ca9-6b9a-4483-b88e-ca5310c7a762
+                PressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !TextBlock
+                Id: 39612208-29f2-40da-ae48-1de4088a794d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: 1
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 4740847b-a565-4a95-93f9-d46e5927ebd3
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 116.0
+                Height: 19.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 1143.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Version
+                Text: V0.0.2
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+                TextAlignment: Right
+        -   UIElement: !Canvas
+                Id: 4ae30e04-ea4d-4cb9-9e9c-07e5084d2a03
+                DependencyProperties:
+                    f0a414bea3bccea16c9a1665d471c84f~Canvas.PinOriginPropertyKey: {X: 0.0, Y: 0.0, Z: 0.0}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Visibility: Hidden
+                Width: 349.0
+                Height: 720.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                Name: CampaginCanvas
+                Children:
+                    d9ebdafb1b01ed7917b676062e4b4c43: !TextBlock ref!! 0a581ec0-f3cb-47a2-9ed5-0b06fc8d6e01
+                    c1fd6334661bf6d3bfb6deb953ad2879: !TextBlock ref!! 522b90f1-7e61-497e-8da8-7689d270c194
+                    c88cc16c5e5fe01d966a8f48435c2119: !Button ref!! f97acc0d-76ad-4a68-846b-c2673b006755
+                    25fb8a1aba1ebe265ffc5d3c95259f36: !Button ref!! 70d32044-d305-4d5e-a69d-406dad812098
+                    86073f9e0d48844d4ce2b7b737da6088: !Button ref!! 0ec44dd1-e422-4ec5-b6ae-ec35396b636b
+        -   UIElement: !TextBlock
+                Id: 522b90f1-7e61-497e-8da8-7689d270c194
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 215.0
+                Height: 25.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 559.0}
+                Name: LocalRecordCampaignTxt
+                Text: 'Record: 00.00'
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: 5873f293-a8f2-46f6-b06a-86848092a839
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 207.0
+                Height: 19.0
+                VerticalAlignment: Top
+                Margin: {Left: 14.0, Top: 23.0, Right: 230.0}
+                Name: TopRecordName
+                Text: UserName
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !StackPanel
+                Id: 58d91831-7d71-44fb-ad10-4e83ac1bc3ff
+                DependencyProperties: {}
+                BackgroundColor: {R: 76, G: 75, B: 75, A: 0}
+                Width: 451.0
+                Height: 603.0
+                Margin: {Left: 493.5, Top: 106.0, Right: 335.5, Bottom: 11.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: TopRecordsPanel
+                Children:
+                    2b6a968f91fab298676d86c2198d6672: !TextBlock ref!! e440d0e9-d210-4c2e-8c48-5d5057269c90
+                    6a2dfb05df92637b5e950b47ec972975: !TextBlock ref!! 5873f293-a8f2-46f6-b06a-86848092a839
+                    fd55fd4ae82d4153e146b7c9c958a62c: !TextBlock ref!! 59f9ebda-b1f8-418f-a29e-7fb1471ba987
+                    1b366bfefa0eed001143e46ca3a150ee: !StackPanel ref!! 32f93138-5671-4804-bd42-7b95edc1120a
+        -   UIElement: !TextBlock
+                Id: 59f9ebda-b1f8-418f-a29e-7fb1471ba987
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 198.0
+                Height: 19.0
+                VerticalAlignment: Top
+                Margin: {Left: 235.0, Top: -19.0, Right: 18.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: TopRecordTime
+                Text: Time
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Right
+        -   UIElement: !Button
+                Id: 70d32044-d305-4d5e-a69d-406dad812098
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 30.0
+                Height: 28.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 41.0, Top: 531.0}
+                Name: Level2Btn
+                Content: !TextBlock ref!! 968f2686-544a-4ac8-bfbf-4a9103e26314
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+        -   UIElement: !StackPanel
+                Id: 766577b7-056b-4f26-92a0-e358e5c81755
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 318.0
+                Height: 266.0
+                VerticalAlignment: Top
+                Margin: {}
+                Name: Top10LatestList
+                Children:
+                    b270bfdb496aafdaf53838782a4a46f3: !Button ref!! ff8694f7-5cc3-4b27-b1e7-f264396507fe
+        -   UIElement: !StackPanel
+                Id: 7c8869d3-648b-4258-82b5-f18ef3bc79b3
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 318.0
+                Height: 253.0
+                VerticalAlignment: Top
+                Margin: {Top: 11.0}
+                Name: Top10SeedsList
+                Children:
+                    db0d3db782f8008d01e8cb19a4b7f7bf: !Button ref!! da222975-38d9-49af-b0d8-a2e65bf60f27
+        -   UIElement: !Button
+                Id: 8ea3bcd1-05ce-493a-a574-c805f1a95d94
+                DependencyProperties: {}
+                BackgroundColor: {R: 196, G: 23, B: 94, A: 0}
+                DrawLayerNumber: 2
+                Width: 225.0
+                Height: 28.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 372.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: RandomSeedBtn
+                Content: !TextBlock ref!! 34693e4e-47cc-48a9-b515-2e1a1dfe29b9
+                PressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !Button
+                Id: 90fa3467-11f6-414e-a569-3d6fec8443e6
+                DependencyProperties:
+                    bd1926e5311c26be7487e2468359323a~Canvas.PinOriginPropertyKey: {X: 0.0, Y: 0.0, Z: 0.0}
+                    bb094e56c4682bf867b7c61006311261~Canvas.RelativePositionPropertyKey: {X: 0.5, Y: 0.0, Z: 0.0}
+                BackgroundColor: {R: 196, G: 23, B: 94, A: 0}
+                DrawLayerNumber: 2
+                Width: 230.0
+                Height: 68.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 233.0, Top: 583.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: SeedStartBtn
+                Content: !TextBlock ref!! eb9f6174-113c-497a-a56a-099d8f749f75
+                PressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !TextBlock
+                Id: 968f2686-544a-4ac8-bfbf-4a9103e26314
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: 2
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: a2aedcfd-c93b-433e-8b25-687aa11bb3af
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: Exit
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: a3e9f270-d503-4ad2-bb35-dff6dd459133
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Text: 3
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: bb364e11-8737-4f90-8428-666e986d0534
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 297.99994
+                Height: 18.0
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {Top: 2.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Top10SeedBtnTxt
+                Text: Randomize
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 0, G: 197, B: 255, A: 255}
+        -   UIElement: !TextBlock
+                Id: bf178308-18f2-4514-bad5-f7c569785b3b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 318.0
+                Height: 31.0
+                VerticalAlignment: Top
+                Margin: {Top: 8.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Top10Latest title
+                Text: Latest 10 seeds
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 22.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: c0794d5f-5eff-4b66-b1e4-da5376d549ce
+                DependencyProperties:
+                    ffae34391da112eb2752a96123ad71ab~Panel.ZIndexPropertyKey: 2
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 57.0
+                VerticalAlignment: Top
+                Margin: {Left: -21.0, Top: 17.0, Right: -12.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Title_dark
+                Text: Rollerghoster
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 68.0
+                TextColor: {R: 89, G: 116, B: 151, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: c65da2ee-dd8b-4aa6-babe-e4385d99c3f4
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 318.0
+                Height: 23.0
+                VerticalAlignment: Top
+                Margin: {Top: 8.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Top10Seeds title
+                Text: Top 10 seeds
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 22.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: cdb05761-c24a-4c7b-b6e2-5c998fa4f11c
+                DependencyProperties:
+                    453238672350252de293882e40095a5d~Panel.ZIndexPropertyKey: 4
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 57.0
+                VerticalAlignment: Top
+                Margin: {Top: 16.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Title_light
+                Text: Rollerghoster
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 68.0
+                TextColor: {R: 3, G: 226, B: 255, A: 255}
+                TextAlignment: Center
+        -   UIElement: !EditText
+                Id: d62f27cd-d24a-4d95-9a5b-73c712a1da99
+                DependencyProperties: {}
+                BackgroundColor: {R: 221, G: 8, B: 0, A: 0}
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 225.0
+                Height: 28.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 80.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: userNameInputTxt
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 41, G: 255, B: 11, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 5
+                CaretColor: {R: 255, G: 255, B: 255, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 118, G: 2, B: 2, A: 255}
+                IMESelectionColor: {R: 1, G: 210, B: 1, A: 255}
+                CaretFrequency: 1.0
+        -   UIElement: !Button
+                Id: da222975-38d9-49af-b0d8-a2e65bf60f27
+                DependencyProperties: {}
+                BackgroundColor: {R: 196, G: 23, B: 94, A: 0}
+                DrawLayerNumber: 2
+                Width: 318.0
+                Height: 22.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Top10SeedBtn
+                Content: !TextBlock ref!! bb364e11-8737-4f90-8428-666e986d0534
+                PressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !Canvas
+                Id: e20b0788-4091-4b9b-a454-b7c73e80b5b8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 233.0
+                Height: 230.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 61.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: RandomSeedCanvas
+                Children:
+                    6aa8db11a11201f27424bbdf2e2bdec4: !TextBlock ref!! f664699d-b93d-4998-9f81-4e3df863cfc6
+                    e15ca7499a469ad7f3c1980fd41b9824: !EditText ref!! d62f27cd-d24a-4d95-9a5b-73c712a1da99
+                    015760e5364e74fd5138c74f5192dacb: !Button ref!! 8ea3bcd1-05ce-493a-a574-c805f1a95d94
+                    d3f8e6bec73b1f18466427351b42444a: !EditText ref!! f6739f5a-0a17-41eb-a538-c0612c0ebcdb
+                    49cd330a5203f1e48fbca09110b53a41: !Button ref!! 90fa3467-11f6-414e-a569-3d6fec8443e6
+                    f9865813968092735959e9f086da32b8: !Button ref!! 375ed1f7-761f-434c-b18f-1e38d3f5e622
+                    c1d2546212c12153cd96b8c6cc340547: !Button ref!! e3725ee3-a859-4189-8361-74405fe2b704
+                    785ef8efb96d1ac8d4a0c3e7f599fa3c: !TextBlock ref!! ee5a9c79-0dcd-4990-93cc-3523ac1654f8
+        -   UIElement: !Button
+                Id: e3725ee3-a859-4189-8361-74405fe2b704
+                DependencyProperties: {}
+                BackgroundColor: {R: 196, G: 23, B: 94, A: 0}
+                DrawLayerNumber: 2
+                Width: 225.0
+                Height: 28.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 623.0}
+                Name: ExitBtn
+                Content: !TextBlock ref!! a2aedcfd-c93b-433e-8b25-687aa11bb3af
+                PressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !TextBlock
+                Id: e440d0e9-d210-4c2e-8c48-5d5057269c90
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 245.0
+                Height: 23.0
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: TopRecords title
+                Text: Top records
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 22.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+                TextAlignment: Center
+        -   UIElement: !TextBlock
+                Id: eb9f6174-113c-497a-a56a-099d8f749f75
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: Start
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 30.0
+                TextColor: {R: 0, G: 255, B: 35, A: 255}
+        -   UIElement: !TextBlock
+                Id: ee5a9c79-0dcd-4990-93cc-3523ac1654f8
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 148.0
+                Height: 25.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 347.0}
+                Name: Custom seed
+                Text: Custom level
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !TextBlock
+                Id: f470a088-3c0b-4417-a044-b2f95ba7162f
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 297.99994
+                Height: 18.8125
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {Top: 2.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Top10LatestBtnTxt
+                Text: Randomize
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 16.0
+                TextColor: {R: 0, G: 197, B: 255, A: 255}
+        -   UIElement: !TextBlock
+                Id: f664699d-b93d-4998-9f81-4e3df863cfc6
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 148.0
+                Height: 25.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 55.0}
+                Name: Username
+                Text: Name
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 255, G: 255, B: 255, A: 255}
+        -   UIElement: !EditText
+                Id: f6739f5a-0a17-41eb-a538-c0612c0ebcdb
+                DependencyProperties: {}
+                BackgroundColor: {R: 74, G: 74, B: 74, A: 0}
+                DrawLayerNumber: 5
+                CanBeHitByUser: true
+                Width: 225.0
+                Height: 28.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 410.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: seedInputTxt
+                Padding: {Left: 8.0, Top: 4.0, Right: 8.0, Bottom: 8.0}
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 18.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                ActiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 3
+                InactiveImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 4
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 5
+                CaretColor: {R: 240, G: 240, B: 240, A: 255}
+                CaretWidth: 1.0
+                SelectionColor: {R: 240, G: 240, B: 240, A: 255}
+                IMESelectionColor: {R: 240, G: 255, B: 240, A: 255}
+                CaretFrequency: 1.0
+                Text: Aggror
+        -   UIElement: !Button
+                Id: f97acc0d-76ad-4a68-846b-c2673b006755
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 30.0
+                Height: 28.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 531.0}
+                Name: Level1Btn
+                Content: !TextBlock ref!! 39612208-29f2-40da-ae48-1de4088a794d
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+        -   UIElement: !StackPanel
+                Id: fb8fe383-b1b8-4ffc-957b-34288b85f671
+                DependencyProperties: {}
+                BackgroundColor: {R: 76, G: 75, B: 75, A: 0}
+                Width: 318.0
+                Height: 280.0
+                HorizontalAlignment: Right
+                Margin: {Top: 106.0, Right: 4.5, Bottom: 334.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Top10LatestPanel
+                Children:
+                    2b6a968f91fab298676d86c2198d6672: !TextBlock ref!! bf178308-18f2-4514-bad5-f7c569785b3b
+                    1b366bfefa0eed001143e46ca3a150ee: !StackPanel ref!! 766577b7-056b-4f26-92a0-e358e5c81755
+        -   UIElement: !StackPanel
+                Id: fcc930ff-82e5-4fc2-97bc-b195614b93a0
+                DependencyProperties: {}
+                BackgroundColor: {R: 76, G: 75, B: 75, A: 0}
+                Width: 318.0
+                Height: 290.0
+                HorizontalAlignment: Right
+                VerticalAlignment: Bottom
+                Margin: {Right: 4.5, Bottom: 11.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Top10SeedsPanel
+                Children:
+                    2b6a968f91fab298676d86c2198d6672: !TextBlock ref!! c65da2ee-dd8b-4aa6-babe-e4385d99c3f4
+                    1b366bfefa0eed001143e46ca3a150ee: !StackPanel ref!! 7c8869d3-648b-4258-82b5-f18ef3bc79b3
+        -   UIElement: !Button
+                Id: ff8694f7-5cc3-4b27-b1e7-f264396507fe
+                DependencyProperties: {}
+                BackgroundColor: {R: 196, G: 23, B: 94, A: 0}
+                DrawLayerNumber: 2
+                Width: 318.0
+                Height: 22.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: Top10LatestBtn
+                Content: !TextBlock ref!! f470a088-3c0b-4417-a044-b2f95ba7162f
+                PressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}

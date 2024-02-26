@@ -1,0 +1,7 @@
+!Texture
+Id: 7df045d2-26fc-4703-947f-6df1c8678786
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Road/old cement.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

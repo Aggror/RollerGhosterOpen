@@ -1,0 +1,7 @@
+!Texture
+Id: b804ef07-4ef3-4475-a90a-422dac33adb2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/Particles/Hit01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

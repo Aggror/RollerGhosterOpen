@@ -1,0 +1,7 @@
+!Texture
+Id: 262c72c1-e773-4252-aee3-a498267027b6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/Particles/circle02.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

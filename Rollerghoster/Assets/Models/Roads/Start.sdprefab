@@ -1,0 +1,110 @@
+!PrefabAsset
+Id: 68ed38a9-8494-4ffe-9e0b-d2c0c9a543b7
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 40b54474-8926-4200-b3d9-a97ad9c333eb
+    Parts:
+        -   Entity:
+                Id: 14a39f0c-3c3e-430c-9aa3-3b3feda29e08
+                Name: End
+                Components:
+                    0e16b0ef51f78d68714b032aa00ae8f2: !TransformComponent
+                        Id: d96d3e0d-62f3-4fc9-b4c6-328062794412
+                        Position: {X: 4.334919E-08, Y: 0.01696828, Z: 2.9478426}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 390082a8-fb9a-461b-a202-407c34e3038e
+                Name: Pd_ground
+                Components:
+                    9606d6d5f546c86f6fb2ac35b8709011: !TransformComponent
+                        Id: 6c378f62-7ae0-49f8-bd00-f026a42dd11a
+                        Position: {X: -0.0135817342, Y: 0.344315827, Z: 1.46018052}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.5, Y: 0.5, Z: 0.5}
+                        Children: {}
+                    1a29b5ddaaac55f7599d227d7b99c212: !ModelComponent
+                        Id: b61070c8-9d42-4d1f-86da-dd73d4903b7d
+                        Model: 0a915286-b39b-4c96-a1f9-ffa2a9e59218:Models/Stands/Pd_ground
+                        Materials: {}
+                    fb850ef04e4feeaa15b60ad150290ad8: !StaticColliderComponent
+                        Id: 486e1090-abd7-42ea-aacd-b281e2c27ced
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            2136b76353709deb36d9727d792fb661: !ColliderShapeAssetDesc
+                                Shape: 2043b201-6b50-41db-ad7f-103119496995:Models/Stands/ColliderHull
+        -   Entity:
+                Id: 40b54474-8926-4200-b3d9-a97ad9c333eb
+                Name: StartBase
+                Components:
+                    a29d5b7574f7f0a0b9f44833d5d73b99: !TransformComponent
+                        Id: dbe1a8a7-5e01-45c9-883b-2d53154a740f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            0dca011eaf9b4d77e7c8463dd5670d31: ref!! 06e4f804-39ce-4b8f-8121-7b5535643e39
+                            48f90d149df5eb28589e9e98335fbf92: ref!! d96d3e0d-62f3-4fc9-b4c6-328062794412
+                            bc9f31b1a5b279425af47f1df386ad0d: ref!! 6c378f62-7ae0-49f8-bd00-f026a42dd11a
+                            68549ee2d92183511cd59ee4df839d4e: ref!! d22fd63a-907c-4aaf-92cb-6a437550e5e4
+        -   Entity:
+                Id: 8aae2d04-8dd9-49f1-95f3-de46aff6eb5b
+                Name: box
+                Components:
+                    14507973d1d5420ae9d752b570738c40: !TransformComponent
+                        Id: 06e4f804-39ce-4b8f-8121-7b5535643e39
+                        Position: {X: 0.0, Y: -0.463377833, Z: 1.47841394}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 3.0, Y: 1.0, Z: 3.0}
+                        Children: {}
+                    caa563c0fff2bad2a3149a53c7dd68bb: !ModelComponent
+                        Id: 64ab017d-ef05-496d-b0aa-1ed73944f9a1
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            8fe5a92bf711c9126e9075a705fa3cd0~0: 7d59b988-221e-4063-862d-fcd58bfcdbfb:Models/Stands/DullSilver
+                    476efa567c0b0aa1aa72dc61fa7c8979: !StaticColliderComponent
+                        Id: e0c73d16-917b-4bbe-a5c7-0d91815d781d
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            de194bb492553b0bd3369ba92c9d65bf: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: f18c63c3-e5fd-44c6-8cf1-f8d4b2c6e7ce
+                Name: Spot light
+                Components:
+                    179c2db5c844407e59cb608b4ac45926: !TransformComponent
+                        Id: d22fd63a-907c-4aaf-92cb-6a437550e5e4
+                        Position: {X: 0.0987500548, Y: 2.98875117, Z: 1.559429}
+                        Rotation: {X: -0.707106769, Y: 0.0, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    8e40a7e8b59dd2fd9ffbe073b6cde285: !LightComponent
+                        Id: de2cc6d9-5f51-49d1-a16a-6ad6565a028d
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            AngleInner: 32.7
+                            AngleOuter: 59.1
+                            UVScale: {X: 1.0, Y: 1.0}
+                            UVOffset: {X: 0.0, Y: 0.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001

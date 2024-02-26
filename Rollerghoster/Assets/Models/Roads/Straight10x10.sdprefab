@@ -1,0 +1,75 @@
+!PrefabAsset
+Id: 7bdc7c36-6636-4fce-8ae4-8822e3708a9e
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! daaf48f9-0628-49cc-bbbc-47f9b2116f9d
+        - ref!! 808f5a35-8d8e-4387-82e1-ace076012216
+    Parts:
+        -   Entity:
+                Id: 808f5a35-8d8e-4387-82e1-ace076012216
+                Name: Cone
+                Components:
+                    e72c01f2141a30a411d9533910a3bf62: !TransformComponent
+                        Id: 6374b864-aba9-405b-9634-8f8e1d09aacb
+                        Position: {X: 0.112731934, Y: -0.100711182, Z: 9.694332}
+                        Rotation: {X: -3.090486E-08, Y: 0.7070207, Z: -0.7071928, W: -3.0912382E-08}
+                        Scale: {X: 1.0, Y: 20.0, Z: 1.0}
+                        Children: {}
+                    a0b3bccb9211373a0f73ab42c301f59a: !ModelComponent
+                        Id: 3fe2e0c6-22cc-401e-a85f-1f2137a600f7
+                        Model: 43e523a9-6bc1-4772-9a6f-ecb733a513d1:Models/Roads/Cone
+                        Materials: {}
+        -   Entity:
+                Id: c5138073-1ef2-4be9-afad-4c58f19e47f4
+                Name: Box1x1x1
+                Components:
+                    029d7be3067b8290891090942c636611: !TransformComponent
+                        Id: 1cd990d8-3732-4d32-9020-64be12792022
+                        Position: {X: 0.0, Y: -0.5, Z: 9.812405}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 5.0, Y: 1.0, Z: 20.0}
+                        Children: {}
+                    a19cefd8dc486581056dea469ce59d80: !ModelComponent
+                        Id: a3e72759-5b33-403e-a44b-9f8b7614f607
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            c92b467d5626856801d0ed7614032578~0: 2d58f2e9-4f42-422a-8f6d-560d90f74b3b:Models/Roads/TextureAndMaterials/CementRoad
+                    fdd05a81cf30803a075b8616cbec0606: !StaticColliderComponent
+                        Id: 0945d927-412d-4b58-bcec-4485c5a51c6e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            8a552c9eb0a5d09b6122804c4d012b11: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: daaf48f9-0628-49cc-bbbc-47f9b2116f9d
+                Name: straight
+                Components:
+                    7c589a97c3fefdf61793aa3d6dfce6f4: !TransformComponent
+                        Id: b9fdfcf5-320f-4b15-931f-1465c0d53d81
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            937c136209a491e70f06fd640f20c449: ref!! 6a8cf268-3b46-49fc-ac2f-7f31957d23d7
+                            550ffbbe00a53aa2f2f41ea5a42886fb: ref!! 1cd990d8-3732-4d32-9020-64be12792022
+        -   Entity:
+                Id: db16423e-859b-469e-8cae-225e02efeb2e
+                Name: End
+                Components:
+                    fc4493aeae1ec49734c84e0b7702072f: !TransformComponent
+                        Id: 6a8cf268-3b46-49fc-ac2f-7f31957d23d7
+                        Position: {X: -9.536743E-07, Y: 0.0, Z: 19.6597748}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}

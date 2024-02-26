@@ -1,0 +1,24 @@
+!MaterialAsset
+Id: 3c66eca3-a815-41b2-8c8b-c54ec7170a70
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            FallbackValue:
+                Value: {R: 0.594, G: 0.0, B: 0.0, A: 0.784313738}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Enabled: false
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Transparency: !MaterialTransparencyAdditiveFeature
+        Enabled: false
+        Alpha: !ComputeFloat
+            Value: 0.9
+        Tint: !ComputeColor
+            Value: {R: 0.8065, G: 0.0, B: 0.0, A: 1.0}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+    CullMode: None
+Layers: {}

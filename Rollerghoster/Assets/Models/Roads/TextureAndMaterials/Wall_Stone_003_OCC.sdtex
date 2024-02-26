@@ -1,0 +1,6 @@
+!Texture
+Id: 9149a639-aac6-4938-abe1-c77a828f9582
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Stone Wall 003/Wall_Stone_003_OCC.jpg
+Type: !GrayscaleTextureType {}

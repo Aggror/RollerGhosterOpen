@@ -1,0 +1,7 @@
+!Texture
+Id: 132148d4-e9ab-40f7-80f4-782ff8656801
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/Particles/dota02.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

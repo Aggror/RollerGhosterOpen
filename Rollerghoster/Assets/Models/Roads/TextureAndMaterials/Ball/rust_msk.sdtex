@@ -1,0 +1,6 @@
+!Texture
+Id: d0113fc1-53ed-42dd-b4c0-7b8cf7b87c31
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../Resources/Textures/iron_blend/rust/rust_msk.png
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,7 @@
+!Sound
+Id: ee6cad25-ef2e-4efd-bc74-216629930bb2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/Sound/soundtrack1.ogg
+StreamFromDisk: true
+Spatialized: false

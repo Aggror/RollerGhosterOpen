@@ -1,0 +1,136 @@
+!UIPageAsset
+Id: 5c2dcac8-0771-433a-87c2-dcb417c77e33
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! a9e5f0a0-6abe-47c0-b1a6-d6b1f87eb2da
+    Parts:
+        -   UIElement: !Button
+                Id: 440d6393-f339-44d3-aefc-f90dc9339321
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 227.35294
+                Height: 52.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 528.0, Top: 388.34375}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: ExitGameBtn
+                Content: !TextBlock ref!! ff6ce1a3-8a7e-45cf-ae11-2e02fa02160d
+                PressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !TextBlock
+                Id: 96c1cfef-b637-4805-98dc-4bb87ea1ed68
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: Restart
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Button
+                Id: 9fea8ae5-58f2-4b17-98b3-05b5f7105977
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 227.35294
+                Height: 52.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 528.0, Top: 314.34375}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: BackToMainMenuBtn
+                Content: !TextBlock ref!! f96b228a-a600-40cc-b80f-71b16ecac0ed
+                PressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !Grid
+                Id: a9e5f0a0-6abe-47c0-b1a6-d6b1f87eb2da
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    296fe7a75728996c79f392c56e7c9403: !Canvas ref!! c7f541a4-7588-41f6-b075-0e788e68f6b0
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Button
+                Id: c2c50bed-8a21-4024-bd12-da01ee3c8128
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 227.35294
+                Height: 59.65625
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 528.0, Top: 234.0}
+                MaximumWidth: 3.4028235E+38
+                MaximumHeight: 3.4028235E+38
+                MaximumDepth: 3.4028235E+38
+                Name: RestartLevelBtn
+                Content: !TextBlock ref!! 96c1cfef-b637-4805-98dc-4bb87ea1ed68
+                PressedImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+                NotPressedImage: !SpriteFromTexture
+                    Texture: 9ad4ac36-dcde-4f7a-ba01-1febca99e4d7:UI/UITextures/btn_normal
+                    Center: {X: 0.0, Y: 0.0}
+                MouseOverImage: !SpriteFromTexture
+                    Texture: 150e61fb-17d1-478c-b56c-6821ddec720b:UI/UITextures/btn_hover
+                    Center: {X: 0.0, Y: 0.0}
+        -   UIElement: !Canvas
+                Id: c7f541a4-7588-41f6-b075-0e788e68f6b0
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 720.0
+                Margin: {}
+                Children:
+                    fde4209193664975bfc0b0e0e3439367: !Button ref!! c2c50bed-8a21-4024-bd12-da01ee3c8128
+                    c23ea17bdf2c4bb6ba38396879b384d4: !Button ref!! 9fea8ae5-58f2-4b17-98b3-05b5f7105977
+                    5169ffe3b5ddb29d99bec436e8320b39: !Button ref!! 440d6393-f339-44d3-aefc-f90dc9339321
+        -   UIElement: !TextBlock
+                Id: f96b228a-a600-40cc-b80f-71b16ecac0ed
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: Back to menu
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !TextBlock
+                Id: ff6ce1a3-8a7e-45cf-ae11-2e02fa02160d
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: Exit
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}

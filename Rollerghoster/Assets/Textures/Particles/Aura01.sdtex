@@ -1,0 +1,7 @@
+!Texture
+Id: 892c8438-fb81-468f-b159-f6a381029820
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/Particles/Aura01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,21 @@
+!ColliderShapeAsset
+Id: 2043b201-6b50-41db-ad7f-103119496995
+SerializedVersion: {Stride: 3.0.0.0}
+Tags: []
+ColliderShapes:
+    e94b838bac40ca44db0afca74c1d23e9: !ConvexHullColliderShapeDesc
+        ConvexHulls: null
+        ConvexHullsIndices: null
+        Model: 0a915286-b39b-4c96-a1f9-ffa2a9e59218:Models/Stands/Pd_ground
+        LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+        LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        Scaling: {X: 0.7, Y: 0.7, Z: 0.7}
+        Decomposition:
+            Depth: 10
+            PosSampling: 10
+            AngleSampling: 10
+            PosRefine: 5
+            AngleRefine: 5
+            Alpha: 0.01
+            Threshold: 0.01
+            Enabled: false

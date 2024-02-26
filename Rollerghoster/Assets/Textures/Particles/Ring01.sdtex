@@ -1,0 +1,7 @@
+!Texture
+Id: 3f9b319d-2514-447b-b93d-46b02a1d1d5d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/Textures/Particles/Ring01.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

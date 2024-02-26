@@ -1,0 +1,7 @@
+!Texture
+Id: e2fca45c-b30b-4655-8e87-946dd3fa893c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../Resources/Textures/Road/start.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

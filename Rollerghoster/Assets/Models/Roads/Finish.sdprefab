@@ -1,0 +1,64 @@
+!PrefabAsset
+Id: d7851086-fe38-4ae4-8c30-9b0803ef9b58
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 33a26552-fe1f-4151-afe7-7e76286825d6
+    Parts:
+        -   Entity:
+                Id: 33a26552-fe1f-4151-afe7-7e76286825d6
+                Name: FinishBase
+                Components:
+                    470c1e349125a5ac19a7d3012a9481b5: !TransformComponent
+                        Id: 9b1e8951-2fce-465c-a973-f8e35656ee69
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            26b785184dcd3545b1bbad13b1dfb5e3: ref!! 6dc2e97c-33d0-4821-8670-1dbeff626260
+                            56bba67093c48950f78151068ff5471e: ref!! 0921cada-c309-4b72-9700-fb4f8cab9681
+        -   Entity:
+                Id: 60064ab5-a486-4619-a161-f00e99dbabba
+                Name: finishplatform
+                Components:
+                    14507973d1d5420ae9d752b570738c40: !TransformComponent
+                        Id: 6dc2e97c-33d0-4821-8670-1dbeff626260
+                        Position: {X: 0.0, Y: -0.491320074, Z: 1.98725843}
+                        Rotation: {X: 0.0, Y: 1.0, Z: 0.0, W: -4.371139E-08}
+                        Scale: {X: 3.0, Y: 1.0, Z: 4.0}
+                        Children: {}
+                    caa563c0fff2bad2a3149a53c7dd68bb: !ModelComponent
+                        Id: df296b10-fdba-43f2-b47f-9e1b7ce3d223
+                        Model: b36be3fb-1496-44c7-97ea-2d523feff017:Models/Box1x1x1
+                        Materials:
+                            8fe5a92bf711c9126e9075a705fa3cd0~0: 7d59b988-221e-4063-862d-fcd58bfcdbfb:Models/Stands/DullSilver
+                    1d1b8e53087f74abbc1167ee4c11b9eb: !StaticColliderComponent
+                        Id: 47b056e6-a9b2-46ce-8be3-66fb261cadfb
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            44c3e2c3587d2ac20ffa28533d4806a5: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: db0276b2-f7fd-42d1-beaa-e1dba8cb0e12
+                Name: Pd_ground
+                Components:
+                    3a217de1442df3d6a26a709765b97e09: !TransformComponent
+                        Id: 0921cada-c309-4b72-9700-fb4f8cab9681
+                        Position: {X: 0.0, Y: 0.0790811852, Z: 2.09765244}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.5, Y: 0.5, Z: 0.5}
+                        Children: {}
+                    fa04d7a4e3264031df93559acb079eeb: !ModelComponent
+                        Id: 3889f2c4-7b87-471d-9bc7-fe9055104fd1
+                        Model: 0a915286-b39b-4c96-a1f9-ffa2a9e59218:Models/Stands/Pd_ground
+                        Materials: {}

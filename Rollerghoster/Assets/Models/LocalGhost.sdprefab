@@ -1,0 +1,26 @@
+!PrefabAsset
+Id: c796a07d-af0c-4f4a-945f-3e7b484b01e3
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 0e457798-038a-487f-8fa1-cb7f8c4a8063
+    Parts:
+        -   Entity:
+                Id: 0e457798-038a-487f-8fa1-cb7f8c4a8063
+                Name: Ghost
+                Components:
+                    6cc9a74d5f1d4032400b3c421165f552: !TransformComponent
+                        Id: cf803916-0126-4a2b-9fa8-dc18541dba99
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d379ecf0bd14f6fef4d6ad0a4250aa4e: !ModelComponent
+                        Id: 629f1ff8-9e2c-47ea-ba69-bc1c7b70eff7
+                        Model: a6d7b9ff-3cf0-4619-817b-5c4f8d222dc4:Models/Sphere
+                        IsShadowCaster: false
+                        Materials:
+                            0446da42290a4aa3e3ad9efd0a0d4b93~0: b76f8154-d126-40ec-bec0-4ab2607cc4b8:Models/Roads/TextureAndMaterials/LocalGhost
+                    7c83a13a3d8c1ceb67f46e8464d7a862: !Rollerghoster.Windows.Ghost,Rollerghoster
+                        Id: c6aca771-fe19-490e-a109-0e10df991cb6

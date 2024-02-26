@@ -1,0 +1,24 @@
+!PrefabAsset
+Id: e574bd50-fdf7-4a84-a40d-432015d15d55
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 419a02f3-4e5c-4f6d-9346-6169ce02c618
+    Parts:
+        -   Entity:
+                Id: 419a02f3-4e5c-4f6d-9346-6169ce02c618
+                Name: Marble
+                Components:
+                    6cc9a74d5f1d4032400b3c421165f552: !TransformComponent
+                        Id: 1aaeaf41-addf-4531-b948-ad7f06b7309a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d379ecf0bd14f6fef4d6ad0a4250aa4e: !ModelComponent
+                        Id: f7a0f494-2a3f-4460-97d7-5813aca192e6
+                        Model: a6d7b9ff-3cf0-4619-817b-5c4f8d222dc4:Models/Sphere
+                        IsShadowCaster: false
+                        Materials:
+                            80c39c428d6c2d5e25ba2e737cdfb40a~0: 3c66eca3-a815-41b2-8c8b-c54ec7170a70:Models/Roads/TextureAndMaterials/corpse
