@@ -13,5 +13,8 @@ Features:
 - Highscores: communicating with an online game service using async calls
 - Example of SQL lite usage, although commented out 
 
-Youtube example
+Explanation
+https://www.youtube.com/watch?v=46POw2euUKY
+
+Many ghosts:
 https://youtu.be/KzntI3Linb0?si=_Fg4UjUx_75vn_ch&t=26
